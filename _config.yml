@@ -4,7 +4,7 @@
 
 url: http://blog.lukmanh.com
 title: Lukman's Blog
-subtitle: A blogging framework for hackers.
+subtitle: 
 author: Lukman Hakim
 simple_search: https://www.google.com/search
 description:
@@ -67,7 +67,7 @@ default_asides: [asides/recent_posts.html,asides/github.html,asides/delicious.ht
 github_user: lukmanhakim
 github_repo_count: 2
 github_show_profile_link: true
-github_skip_forks: true
+github_skip_forks: false
 
 # Twitter
 twitter_user:
