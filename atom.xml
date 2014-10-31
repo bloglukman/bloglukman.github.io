@@ -4,7 +4,7 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2014-10-31T11:35:21+07:00</updated>
+  <updated>2014-10-31T15:58:22+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,145 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Java]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/10/30/hello-java/"/>
+    <updated>2014-10-30T11:42:27+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/10/30/hello-java</id>
+    <content type="html"><![CDATA[<p>Hal pertama yang kita pelajari dalam membuat program komputer adalah menampilkan &ldquo;Hello World!&rdquo;. Pada kesempatan kali ini saya akan menjelaskan bagaimana membuat program tersebut pada Java. Sebelum memulai anda harus mengenal dulu :</p>
+
+<!-- more -->
+
+
+<ul>
+<li>Package</li>
+<li>Class</li>
+<li>Method</li>
+<li>Main Method</li>
+</ul>
+
+
+<h3>1. Package</h3>
+
+<p>Package adalah sarana/cara pengelompokkan dan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library.</p>
+
+<h3>2. Class</h3>
+
+<p>Class mendefinisikan sekumpulan objek yang memiliki kesamaan keadaan dan perilaku. Class digunakan untuk membuat objek, dan berperan sebagai tipe data dari objek. Class merupakan sarana pengkapsulan kumpulan data dan kumpulan method yang mengoperasikan kumpulan data tersebut.</p>
+
+<h3>3. Method</h3>
+
+<p>Sebuah method adalah bagian-bagian kode yang dapat dipanggil oleh program utama atau dari method lainnya untuk menjalankan fungsi yang spesifik.</p>
+
+<h3>4. Main Method</h3>
+
+<p>Method main()adalah method utama yang pasti dimiliki oleh semua program java (selain applet) dan akan dieksekusi pertama kali pada saat program dijalankan.</p>
+
+<hr />
+
+
+<p>Sekarang kita akan membuat &ldquo;Hello World!&rdquo; pada Java.</p>
+
+<p><strong>1. Buat File Java</strong></p>
+
+<p>Buat file berekstensi <code>.java</code>. Jangan ada karakter <code>spasi</code> karena File yang kita buat akan menjadi nama class. Saya beri nama File saya <code>Hello.java</code>.</p>
+
+<p><br />
+<strong>2. Mendeklarasi class</strong></p>
+
+<p>Buka file yang telah anda buat dengan text editor seperti notepad atau bila perlu notepad++ agar code program lebih mudah dibaca. dibawah ini adalah Contoh class pada java.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi nama filenya <code>Hello.java</code></p>
+
+<p><br />
+<strong>3. Membuat Method Main</strong></p>
+
+<p>Buat main metode didalam class Hello. code program menjadi seperti dibawah.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><br />
+<strong>4. Menampilkan &ldquo;Hello World!&rdquo;</strong></p>
+
+<p>Untuk menampilkan output dilayar shell pada java kita dapat gunakan <code>System.out.print</code>. Sehingga kode program menjadi seperti gambar dibawah.</p>
+
+<figure class='code'><figcaption><span> (Hello.java)</span> <a href='http://blog.lukmanh.com/downloads/code/java/Hello.java'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
+</span><span class='line'>      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong> 5. Compile dan Run</strong></p>
+
+<p>Agar program dapat dijalankan tentu kita harus mengkompilasi kode program yang telah kita buat, untuk meng-compile ikuti langkah langkah dibawah :</p>
+
+<ul>
+<li>Buka cmd / terminal</li>
+<li>pindah ke direktori tempat kita membuat file dangan perintah cd. contoh jika kita membuat di
+desktop</li>
+</ul>
+
+
+<figure class='code'><figcaption><span>Linux </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ cd ~/Desktop
+</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><figcaption><span>Windows </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>cd C<span class="o">:</span>\Users\username\Desktop\
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Compile kode program seperti contoh dibawah</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>javac Hello.java</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>jalankan hasil compile seperti contoh dibawah</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>java Hello</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instalasi Java]]></title>
@@ -75,8 +214,9 @@
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>> set JAVA_HOME="C:\Program Files\Java\jdk1.5.0_14"
-</span><span class='line'>> set PATH=%JAVA_HOME%\bin;%PATH%</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>set JAVA_HOME<span class="o">=</span><span class="s">&quot;C:\Program Files\Java\jdk1.5.0_14&quot;</span>
+</span><span class='line'><span class="gp">&gt; </span>set PATH<span class="o">=%JAVA_HOME%</span>\bin<span class="p">;</span><span class="o">%PATH%</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
 <ul>
@@ -91,7 +231,8 @@
 
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>> java -version</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>java <span class="o">-</span><span class="kp">version</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
@@ -113,7 +254,8 @@
 
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ file /sbin/init</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ file /sbin/init
+</span></code></pre></td></tr></table></div></figure>
 
 
 <ul>
@@ -132,9 +274,10 @@
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
 </span><span class='line'>$ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
-</span><span class='line'>$ source /etc/profile</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>$ <span class="k">source</span> /etc/profile
+</span></code></pre></td></tr></table></div></figure>
 
 
 <ul>
@@ -149,7 +292,8 @@
 
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ java -version</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ java -version
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>

@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Instalasi Java - Lukman&#8217;s Blog</title>
+  <title>Hello Java - Lukman&#8217;s Blog</title>
   <meta name="author" content="Lukman Hakim">
 
   
@@ -14,15 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.lukmanh.com/blog/2014/10/23/instalasi-java">
+  <link rel="canonical" href="http://blog.lukmanh.com/blog/2014/10/30/hello-java">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="Lukman's Blog" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://blog.lukmanh.com/blog/2014/10/23/instalasi-java">
-  <meta property="og:title" content="Instalasi Java - Lukman's Blog">
+  <meta property="og:url" content="http://blog.lukmanh.com/blog/2014/10/30/hello-java">
+  <meta property="og:title" content="Hello Java - Lukman's Blog">
   
 
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
@@ -119,161 +119,149 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-10-23T15:48:28+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-10-23T15:48:28+07:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>3:48 pm</span></time></time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-10-30T11:42:27+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-10-30T11:42:27+07:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:42 am</span></time></time>
         
       </p>
     
     
     <h1 class="entry-title" itemprop="name headline">
-        Instalasi Java
+        Hello Java
         
     </h1>
     
   </header>
 
 
-<div class="entry-content clearfix" itemprop="articleBody description"><p>Saya akan menjelaskan bagaimana menginstall Java pada sistem operasi Windows dan Linux. Berikut adalah langkah langkah menginstall Java.</p>
+<div class="entry-content clearfix" itemprop="articleBody description"><p>Hal pertama yang kita pelajari dalam membuat program komputer adalah menampilkan &ldquo;Hello World!&rdquo;. Pada kesempatan kali ini saya akan menjelaskan bagaimana membuat program tersebut pada Java. Sebelum memulai anda harus mengenal dulu :</p>
 
-<!--more-->
+<!-- more -->
 
-
-<p>Untuk menginstall Java langkah umum yang kita lakukan adalah :</p>
 
 <ul>
-<li>Check sistem operasi.</li>
-<li>Check berapa bit pada sistem operasi.</li>
-<li>Download Java JDK sesuai dengan sistem operasi dan bit nya.</li>
-<li>Install Java JDK.</li>
-<li>Path Java.</li>
-<li>Check Java apakah sudah terinstall atau belum.</li>
+<li>Package</li>
+<li>Class</li>
+<li>Method</li>
+<li>Main Method</li>
 </ul>
 
 
-<p>Langkah pertama adalah check sistem operasi. Langkah ini tentu sudah kita lakukan, kita sudah tahu sistem operasi apa yang kita gunakan. Jadi kita mulai dengan check berapa bit sistem operasi yang kita jalankan.</p>
+<h3>1. Package</h3>
+
+<p>Package adalah sarana/cara pengelompokkan dan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library.</p>
+
+<h3>2. Class</h3>
+
+<p>Class mendefinisikan sekumpulan objek yang memiliki kesamaan keadaan dan perilaku. Class digunakan untuk membuat objek, dan berperan sebagai tipe data dari objek. Class merupakan sarana pengkapsulan kumpulan data dan kumpulan method yang mengoperasikan kumpulan data tersebut.</p>
+
+<h3>3. Method</h3>
+
+<p>Sebuah method adalah bagian-bagian kode yang dapat dipanggil oleh program utama atau dari method lainnya untuk menjalankan fungsi yang spesifik.</p>
+
+<h3>4. Main Method</h3>
+
+<p>Method main()adalah method utama yang pasti dimiliki oleh semua program java (selain applet) dan akan dieksekusi pertama kali pada saat program dijalankan.</p>
 
 <hr />
 
 
-<h3>Windows</h3>
+<p>Sekarang kita akan membuat &ldquo;Hello World!&rdquo; pada Java.</p>
 
-<ul>
-<li><p>Check berapa bit sistem operasi yang kita jalankan dengan cara</p>
+<p><strong>1. Buat File Java</strong></p>
 
-<ul>
-<li>Klik kanan My Computer.</li>
-<li>Klik Properties.</li>
-<li>Lihat versi (x86 = 32bit dan x64 = 64bit).</li>
-</ul>
-</li>
-<li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
-<li><p>Install Java :</p>
+<p>Buat file berekstensi <code>.java</code>. Jangan ada karakter <code>spasi</code> karena File yang kita buat akan menjadi nama class. Saya beri nama File saya <code>Hello.java</code>.</p>
 
-<ul>
-<li>Klik 2x file installer yang telah kita download.</li>
-<li>Pilih lokasi penyimpanan direktori Java. Secara default di C:\Program Files</li>
-<li>Klik Install.</li>
-<li>Klik Next.</li>
-<li>Tunggu Proses Installasi.</li>
-<li>Klik Close.</li>
-</ul>
-</li>
-<li><p>Path Java dapat dilakukan dengan cara sebagai berikut:</p>
+<p><br />
+<strong>2. Mendeklarasi class</strong></p>
 
-<ul>
-<li>Buka Command Prompt.</li>
-<li>Ketik perintah dibawah.</li>
-</ul>
-</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>set JAVA_HOME<span class="o">=</span><span class="s">&quot;C:\Program Files\Java\jdk1.5.0_14&quot;</span>
-</span><span class='line'><span class="gp">&gt; </span>set PATH<span class="o">=%JAVA_HOME%</span>\bin<span class="p">;</span><span class="o">%PATH%</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Check Java yang sudah kita install dengan cara :
-
-<ul>
-<li>Buka Command Prompt.</li>
-<li>Ketik perintah dibawah.</li>
-</ul>
-</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>java <span class="o">-</span><span class="kp">version</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
-
-<hr />
-
-
-<h3>Linux</h3>
-
-<ul>
-<li>Check berapa bit sistem operasi yang kita jalankan dengan cara :
-
-<ul>
-<li>Buka Terminal</li>
-<li>Ketik perintah dibawah</li>
-</ul>
-</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ file /sbin/init
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
-<li><p>Install Java pada linux kita cukup mengekstrak file yang kita download lalu letakan direktori di <code>/opt/</code></p></li>
-<li><p>Path Java dapat dilakukan dapat dilakukan dengan cara :</p>
-
-<ul>
-<li>Buka Terminal</li>
-<li>Ketik perintah dibawah</li>
-</ul>
-</li>
-</ul>
-
+<p>Buka file yang telah anda buat dengan text editor seperti notepad atau bila perlu notepad++ agar code program lebih mudah dibaca. dibawah ini adalah Contoh class pada java.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
-</span><span class='line'>$ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
-</span><span class='line'>$ <span class="k">source</span> /etc/profile
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi nama filenya <code>Hello.java</code></p>
+
+<p><br />
+<strong>3. Membuat Method Main</strong></p>
+
+<p>Buat main metode didalam class Hello. code program menjadi seperti dibawah.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><br />
+<strong>4. Menampilkan &ldquo;Hello World!&rdquo;</strong></p>
+
+<p>Untuk menampilkan output dilayar shell pada java kita dapat gunakan <code>System.out.print</code>. Sehingga kode program menjadi seperti gambar dibawah.</p>
+
+<figure class='code'><figcaption><span> (Hello.java)</span> <a href='/downloads/code/java/Hello.java'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
+</span><span class='line'>      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong> 5. Compile dan Run</strong></p>
+
+<p>Agar program dapat dijalankan tentu kita harus mengkompilasi kode program yang telah kita buat, untuk meng-compile ikuti langkah langkah dibawah :</p>
+
+<ul>
+<li>Buka cmd / terminal</li>
+<li>pindah ke direktori tempat kita membuat file dangan perintah cd. contoh jika kita membuat di
+desktop</li>
+</ul>
+
+
+<figure class='code'><figcaption><span>Linux </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ cd ~/Desktop
+</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><figcaption><span>Windows </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>cd C<span class="o">:</span>\Users\username\Desktop\
 </span></code></pre></td></tr></table></div></figure>
 
 
 <ul>
-<li>Check Java yang sudah kita install dengan cara :
-
-<ul>
-<li>Buka Terminal.</li>
-<li>Ketik perintah dibawah.</li>
-</ul>
-</li>
+<li>Compile kode program seperti contoh dibawah</li>
 </ul>
 
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ java -version
-</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>javac Hello.java</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
+<ul>
+<li>jalankan hasil compile seperti contoh dibawah</li>
+</ul>
 
-<hr />
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>java Hello</span></code></pre></td></tr></table></div></figure>
 
 </div>
 
@@ -298,7 +286,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-10-23T15:48:28+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-10-23T15:48:28+07:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>3:48 pm</span></time></time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-10-30T11:42:27+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-10-30T11:42:27+07:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:42 am</span></time></time>
           
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
@@ -321,10 +309,8 @@
         
           <ul class="meta text-muted pager">
             
-            <li class="previous"><a href="/blog/2014/10/16/komponen-java/" title="Previous Post: Komponen Java">&laquo; Komponen Java</a></li>
+            <li class="previous"><a href="/blog/2014/10/23/instalasi-java/" title="Previous Post: Instalasi Java">&laquo; Instalasi Java</a></li>
             
-            
-            <li class="next"><a href="/blog/2014/10/30/hello-java/" title="Next Post: Hello Java">Hello Java &raquo;</a></li>
             
           </ul>
         
@@ -343,9 +329,9 @@
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/blog/2014/10/30/hello-java/">Hello Java</a>
+    <a class="list-group-item active" href="/blog/2014/10/30/hello-java/">Hello Java</a>
     
-    <a class="list-group-item active" href="/blog/2014/10/23/instalasi-java/">Instalasi Java</a>
+    <a class="list-group-item " href="/blog/2014/10/23/instalasi-java/">Instalasi Java</a>
     
     <a class="list-group-item " href="/blog/2014/10/16/komponen-java/">Komponen Java</a>
     
