@@ -4,7 +4,7 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2014-10-16T11:50:01+07:00</updated>
+  <updated>2014-10-31T11:35:21+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,152 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Instalasi Java]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/10/23/instalasi-java/"/>
+    <updated>2014-10-23T15:48:28+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/10/23/instalasi-java</id>
+    <content type="html"><![CDATA[<p>Saya akan menjelaskan bagaimana menginstall Java pada sistem operasi Windows dan Linux. Berikut adalah langkah langkah menginstall Java.</p>
+
+<!--more-->
+
+
+<p>Untuk menginstall Java langkah umum yang kita lakukan adalah :</p>
+
+<ul>
+<li>Check sistem operasi.</li>
+<li>Check berapa bit pada sistem operasi.</li>
+<li>Download Java JDK sesuai dengan sistem operasi dan bit nya.</li>
+<li>Install Java JDK.</li>
+<li>Path Java.</li>
+<li>Check Java apakah sudah terinstall atau belum.</li>
+</ul>
+
+
+<p>Langkah pertama adalah check sistem operasi. Langkah ini tentu sudah kita lakukan, kita sudah tahu sistem operasi apa yang kita gunakan. Jadi kita mulai dengan check berapa bit sistem operasi yang kita jalankan.</p>
+
+<hr />
+
+
+<h3>Windows</h3>
+
+<ul>
+<li><p>Check berapa bit sistem operasi yang kita jalankan dengan cara</p>
+
+<ul>
+<li>Klik kanan My Computer.</li>
+<li>Klik Properties.</li>
+<li>Lihat versi (x86 = 32bit dan x64 = 64bit).</li>
+</ul>
+</li>
+<li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
+<li><p>Install Java :</p>
+
+<ul>
+<li>Klik 2x file installer yang telah kita download.</li>
+<li>Pilih lokasi penyimpanan direktori Java. Secara default di C:\Program Files</li>
+<li>Klik Install.</li>
+<li>Klik Next.</li>
+<li>Tunggu Proses Installasi.</li>
+<li>Klik Close.</li>
+</ul>
+</li>
+<li><p>Path Java dapat dilakukan dengan cara sebagai berikut:</p>
+
+<ul>
+<li>Buka Command Prompt.</li>
+<li>Ketik perintah dibawah.</li>
+</ul>
+</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>> set JAVA_HOME="C:\Program Files\Java\jdk1.5.0_14"
+</span><span class='line'>> set PATH=%JAVA_HOME%\bin;%PATH%</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Check Java yang sudah kita install dengan cara :
+
+<ul>
+<li>Buka Command Prompt.</li>
+<li>Ketik perintah dibawah.</li>
+</ul>
+</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>> java -version</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
+
+<hr />
+
+
+<h3>Linux</h3>
+
+<ul>
+<li>Check berapa bit sistem operasi yang kita jalankan dengan cara :
+
+<ul>
+<li>Buka Terminal</li>
+<li>Ketik perintah dibawah</li>
+</ul>
+</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ file /sbin/init</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
+<li><p>Install Java pada linux kita cukup mengekstrak file yang kita download lalu letakan direktori di <code>/opt/</code></p></li>
+<li><p>Path Java dapat dilakukan dapat dilakukan dengan cara :</p>
+
+<ul>
+<li>Buka Terminal</li>
+<li>Ketik perintah dibawah</li>
+</ul>
+</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
+</span><span class='line'>$ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
+</span><span class='line'>$ source /etc/profile</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Check Java yang sudah kita install dengan cara :
+
+<ul>
+<li>Buka Terminal.</li>
+<li>Ketik perintah dibawah.</li>
+</ul>
+</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ java -version</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
+
+<hr />
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Komponen Java]]></title>
