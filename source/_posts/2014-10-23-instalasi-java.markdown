@@ -42,7 +42,7 @@ Langkah pertama adalah check sistem operasi. Langkah ini tentu sudah kita lakuka
 	* Buka Command Prompt.
 	* Ketik perintah dibawah.
 
-{% codeblock %}
+{% codeblock lang:rout %}
 > set JAVA_HOME="C:\Program Files\Java\jdk1.5.0_14"
 > set PATH=%JAVA_HOME%\bin;%PATH%
 {% endcodeblock %}
@@ -51,7 +51,7 @@ Langkah pertama adalah check sistem operasi. Langkah ini tentu sudah kita lakuka
 	* Buka Command Prompt.
 	* Ketik perintah dibawah.
 
-{% codeblock %}
+{% codeblock lang:rout %}
 > java -version
 {% endcodeblock %}
 
@@ -65,7 +65,7 @@ Langkah pertama adalah check sistem operasi. Langkah ini tentu sudah kita lakuka
 	* Buka Terminal
 	* Ketik perintah dibawah
 
-{% codeblock %}
+{% codeblock lang:kconfig %}
 $ file /sbin/init
 {% endcodeblock %}
 
@@ -77,7 +77,7 @@ $ file /sbin/init
 	* Buka Terminal
 	* Ketik perintah dibawah
 
-{% codeblock %}
+{% codeblock lang:kconfig %}
 $ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
 $ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
 $ source /etc/profile
@@ -87,7 +87,7 @@ $ source /etc/profile
 	* Buka Terminal.
 	* Ketik perintah dibawah.
 
-{% codeblock %}
+{% codeblock lang:kconfig %}
 $ java -version
 {% endcodeblock %}
 
