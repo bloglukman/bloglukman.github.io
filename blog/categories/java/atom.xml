@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Java | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2014-10-31T15:58:22+07:00</updated>
+  <updated>2014-11-19T11:25:56+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -106,7 +106,7 @@ Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi na
 </span><span class='line'><span class="o">}</span>
 </span></code></pre></td></tr></table></div></figure></p>
 
-<p><strong> 5. Compile dan Run</strong></p>
+<p><strong>5. Compile dan Run</strong></p>
 
 <p>Agar program dapat dijalankan tentu kita harus mengkompilasi kode program yang telah kita buat, untuk meng-compile ikuti langkah langkah dibawah :</p>
 
