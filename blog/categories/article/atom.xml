@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Article | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/article/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2014-11-20T14:32:41+07:00</updated>
+  <updated>2014-11-20T15:05:26+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -18,10 +18,21 @@
     <link href="http://blog.lukmanh.com/blog/2014/11/20/cache-memory/"/>
     <updated>2014-11-20T14:20:24+07:00</updated>
     <id>http://blog.lukmanh.com/blog/2014/11/20/cache-memory</id>
-    <content type="html"><![CDATA[<p>Cache memory merupakan lokasi data sementara antara prosesor dengan main memory. Penempatan cache memory ditujukan untuk mengurangi gap antara kecepatan prosesor dengan kecepatan main memory. Gambar 2.1. di bawah ini menunjukkan posisi cache memory yang diletakkan antara prosesor (CPU) dengan main memory. Sedangkan gambar 2.2. memperlihatkan sistem interkoneksi untuk cache memory.</p>
+    <content type="html"><![CDATA[<p>Cache memory merupakan lokasi data sementara antara prosesor dengan main memory. Penempatan cache memory ditujukan untuk mengurangi gap antara kecepatan prosesor dengan kecepatan main memory. Gambar 1 di bawah ini menunjukkan posisi cache memory yang diletakkan antara prosesor (CPU) dengan main memory. Sedangkan Gambar 2 memperlihatkan sistem interkoneksi untuk cache memory.</p>
 
 <!-- more -->
 
+
+<p><img src="/images/1.png" title="Gambar 1" ></p>
+
+<p style="text-align:center;"><strong> Gambar 1 </strong></p>
+
+<hr />
+
+
+<p><img class="center" src="/images/2.png" title="Gambar 2" ></p>
+
+<p style="text-align:center;"><strong> Gambar 2 </strong></p>
 
 <p>Cache berasal dari kata cash. Dari istilah tersebut cache adalah tempat menyembunyikan atau tempat menyimpan sementara. Sesuai definisi tersebut cache memory adalah tempat menympan data sementara. Cara ini dimaksudkan untuk meningkatkan transfer data dengan menyimpan data yang pernah diakses pada cache memory tersebut, sehingga apabila ada data yang ingin diakses adalah data yang sama maka maka akses akan dapat dilakukan lebih cepat. Cache memory ini adalah memori tipe SDRAM yang memiliki kapasitas terbatas namun memiliki kecepatan yang sangat tinggi dan harga yang lebih mahal dari memori utama. Cache memory ini terletak antara register dan RAM (memori utama) sehingga pemrosesan data tidak langsung mengacu pada memori utama.</p>
 
@@ -49,6 +60,10 @@ main memory, yang dikerjakan sesuai perintah CPU.</p></li>
 <p>Level 2 atau L2 cache merupakan bagian dari strategi penyimpanan multi level untuk meningkatkan performa komputer. Terdapat tiga level cache yang digunakan pada komputer, yaitu L1, L2 dan L3 cache. Tiap-tiap cache tersebut menjembatani jarak (gap) diantara processor yang sangat cepat, dengan memori RAM (Random Access Memory) yang jauh lebih lambat.</p>
 
 <p>Sementara desainnya terus mengalami perubahan, L1 cache biasanya telah terintegrasi (built in) ke dalam processor, sementara L2 cache biasanya terintegrasi pada motherboard (bersamaan dengan L2 cache). Namun, beberapa processor kini menggabungkan L2 cache serta L1 cache, dan bahkan beberapa diantaranya juga menggungkan L3 cache. Kecepatan yang paling tinggi terdapat pada L1 cache, kemudian menurun pada L2 dan L3 cache. Namun kebalikannya, semakin besar angka cache, maka semakin besar pula kapasitas penyimpanan datanya.</p>
+
+<p><img class="center" src="/images/3.png" title="Gambar 3" ></p>
+
+<p style="text-align:center;"><strong> Gambar 3 </strong></p>
 
 <p>Tugas dari cache processor adalah untuk mengantisipasi data request, sehingga ketika pengguna mengakses sebuah program yang sering digunakan, sebagai contohnya, instruksi-instruksi yang dibutuhkan untuk menjalankan program tersebut telah siap digunakan, disimpan pada cache. Ketika hal ini terjadi, CPU dapat memproses request tanpa adanya jeda (delay), sehingga dapat meningkatkan performa komputer secara drastis.</p>
 
