@@ -6,9 +6,18 @@ comments: true
 categories: Article
 ---
 
-Cache memory merupakan lokasi data sementara antara prosesor dengan main memory. Penempatan cache memory ditujukan untuk mengurangi gap antara kecepatan prosesor dengan kecepatan main memory. Gambar 2.1. di bawah ini menunjukkan posisi cache memory yang diletakkan antara prosesor (CPU) dengan main memory. Sedangkan gambar 2.2. memperlihatkan sistem interkoneksi untuk cache memory.
+Cache memory merupakan lokasi data sementara antara prosesor dengan main memory. Penempatan cache memory ditujukan untuk mengurangi gap antara kecepatan prosesor dengan kecepatan main memory. Gambar 1 di bawah ini menunjukkan posisi cache memory yang diletakkan antara prosesor (CPU) dengan main memory. Sedangkan Gambar 2 memperlihatkan sistem interkoneksi untuk cache memory.
 
 <!-- more -->
+
+{% img /images/1.png Gambar 1 %}
+
+->** Gambar 1 **<-
+
+<hr />
+{% img center /images/2.png Gambar 2 %}
+
+->** Gambar 2 **<-
 
 Cache berasal dari kata cash. Dari istilah tersebut cache adalah tempat menyembunyikan atau tempat menyimpan sementara. Sesuai definisi tersebut cache memory adalah tempat menympan data sementara. Cara ini dimaksudkan untuk meningkatkan transfer data dengan menyimpan data yang pernah diakses pada cache memory tersebut, sehingga apabila ada data yang ingin diakses adalah data yang sama maka maka akses akan dapat dilakukan lebih cepat. Cache memory ini adalah memori tipe SDRAM yang memiliki kapasitas terbatas namun memiliki kecepatan yang sangat tinggi dan harga yang lebih mahal dari memori utama. Cache memory ini terletak antara register dan RAM (memori utama) sehingga pemrosesan data tidak langsung mengacu pada memori utama.
 
@@ -32,6 +41,10 @@ Hingga saat ini, cache memory terbagi atas tiga level yaitu L1, L2 dan L3. Cache
 Level 2 atau L2 cache merupakan bagian dari strategi penyimpanan multi level untuk meningkatkan performa komputer. Terdapat tiga level cache yang digunakan pada komputer, yaitu L1, L2 dan L3 cache. Tiap-tiap cache tersebut menjembatani jarak (gap) diantara processor yang sangat cepat, dengan memori RAM (Random Access Memory) yang jauh lebih lambat.
 
 Sementara desainnya terus mengalami perubahan, L1 cache biasanya telah terintegrasi (built in) ke dalam processor, sementara L2 cache biasanya terintegrasi pada motherboard (bersamaan dengan L2 cache). Namun, beberapa processor kini menggabungkan L2 cache serta L1 cache, dan bahkan beberapa diantaranya juga menggungkan L3 cache. Kecepatan yang paling tinggi terdapat pada L1 cache, kemudian menurun pada L2 dan L3 cache. Namun kebalikannya, semakin besar angka cache, maka semakin besar pula kapasitas penyimpanan datanya.
+
+{% img center /images/3.png Gambar 3 %}
+
+->** Gambar 3 **<-
 
 Tugas dari cache processor adalah untuk mengantisipasi data request, sehingga ketika pengguna mengakses sebuah program yang sering digunakan, sebagai contohnya, instruksi-instruksi yang dibutuhkan untuk menjalankan program tersebut telah siap digunakan, disimpan pada cache. Ketika hal ini terjadi, CPU dapat memproses request tanpa adanya jeda (delay), sehingga dapat meningkatkan performa komputer secara drastis.
 
