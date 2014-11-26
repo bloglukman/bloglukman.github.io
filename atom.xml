@@ -4,7 +4,7 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2014-11-26T10:21:43+07:00</updated>
+  <updated>2014-11-26T10:33:37+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sejarah Singkat Git]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/11/26/git/"/>
+    <updated>2014-11-26T10:29:04+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/11/26/git</id>
+    <content type="html"><![CDATA[<p>Seperti hal besar lainnya, Git diawali dengan sedikit permasalahan dan kontroversi. Kernel Linux merupakan sebuah proyek perangkat lunak open source skala besar. Sepanjang perjalanan perawatan Kernel Linux (1991-2002), perubahan disimpan sebagai patch dan arsip-arsip berkas. Pada tahun 2002, proyek ini mulai menggunakan sebuah DVCS proprietary bernama BitKeeper.</p>
+
+<!-- more -->
+
+
+<p>Pada tahun 2005, hubungan antara komunitas pengembang Kernel Linux dengan perusahan yang mengembangkan Bitkeeper retak, dan status &ldquo;gratis&rdquo; pada BitKeeper dicabut. Hal ini membuat komunitas pengembang Kernel Linux (dan khususnya Linus Torvalds, sang pencipta Linux) harus mengembangkan perkakas sendiri dengan berbekal pengalaman yang mereka peroleh ketika menggunakan BitKeeper. Dan sistem tersebut diharapkan dapat memenuhi beberapa hal berikut:</p>
+
+<ul>
+<li>Kecepatan</li>
+<li>Desain yang sederhana</li>
+<li>Dukungan penuh untuk pengembangan non-linear (ribuan cabang paralel)</li>
+<li>Terdistribusi secara penuh</li>
+<li>Mampu menangani proyek besar seperti Kernel Linux secara efisien (dalam kecepatan dan ukuran data)</li>
+</ul>
+
+
+<p>Sejak kelahirannya pada tahun 2005, Git telah berkembang dan semakin mudah digunakan serta hingga saat ini masih mempertahankan kualitasnya tersebut. Git luar biasa cepat, sangat efisien dalam proyek besar, dan memiliki sistem pencabangan yang luar biasa untuk pengembangan non-linear.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Version Control]]></title>
