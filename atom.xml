@@ -4,14 +4,41 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2014-11-26T10:33:37+07:00</updated>
+  <updated>2015-03-25T11:34:32+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
-    <email><![CDATA[mailto:lukmanh1995@gmail.com"]]></email>
+    <email><![CDATA[mailto:lukmanh1995@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Perilaku Konsumen]]></title>
+    <link href="http://blog.lukmanh.com/blog/2015/03/25/perilaku-konsumen/"/>
+    <updated>2015-03-25T11:34:09+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2015/03/25/perilaku-konsumen</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elastisitas]]></title>
+    <link href="http://blog.lukmanh.com/blog/2015/03/18/elastisitas/"/>
+    <updated>2015-03-18T11:33:26+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2015/03/18/elastisitas</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Keseimbangan Permintaan Dan Penawaran]]></title>
+    <link href="http://blog.lukmanh.com/blog/2015/03/11/keseimbangan-permintaan-dan-penawaran/"/>
+    <updated>2015-03-11T11:31:37+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2015/03/11/keseimbangan-permintaan-dan-penawaran</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sejarah Singkat Git]]></title>
