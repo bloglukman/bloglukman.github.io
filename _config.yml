@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email: mailto:lukmanh1995@gmail.com
 # RSS feeds can list your email address if you like
-email: mailto:lukmanh1995@gmail.com"
+email: mailto:lukmanh1995@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
