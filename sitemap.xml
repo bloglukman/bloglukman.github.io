@@ -3,6 +3,30 @@
   
   
   <url>
+    <loc>http://blog.lukmanh.com/blog/2015/04/06/fustruktur-pasar/</loc>
+    
+    <lastmod>2015-04-06T10:49:23+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.lukmanh.com/blog/2015/04/06/fungsi-produksi/</loc>
+    
+    <lastmod>2015-04-06T10:08:31+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.lukmanh.com/blog/2015/04/06/perilaku-produsen/</loc>
+    
+    <lastmod>2015-04-06T09:54:42+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.lukmanh.com/blog/2015/03/25/perilaku-konsumen/</loc>
     
     <lastmod>2015-03-25T11:34:09+07:00</lastmod>
@@ -109,21 +133,21 @@
   
   <url>
     <loc>http://blog.lukmanh.com/blog/archives/</loc>
-    <lastmod>2015-04-01T11:05:32+07:00</lastmod>
+    <lastmod>2015-04-06T11:24:35+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://blog.lukmanh.com/</loc>
-    <lastmod>2015-04-01T11:05:32+07:00</lastmod>
+    <lastmod>2015-04-06T11:24:35+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://blog.lukmanh.com/blog/about/</loc>
-    <lastmod>2015-04-01T11:05:32+07:00</lastmod>
+    <lastmod>2015-04-06T11:24:35+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
