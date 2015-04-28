@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Article | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/article/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2015-04-06T11:27:05+07:00</updated>
+  <updated>2015-04-28T10:56:27+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Contoh Soal Elastisitas]]></title>
+    <link href="http://blog.lukmanh.com/blog/2015/04/28/contoh-soal-elastisitas/"/>
+    <updated>2015-04-28T10:19:42+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2015/04/28/contoh-soal-elastisitas</id>
+    <content type="html"><![CDATA[<p>Berikut adalah contoh contoh soal elastisitas harga dan elastisitas silang</p>
+
+<!-- more -->
+
+
+<h3>1. Elastisitas Harga</h3>
+
+<p><br /></p>
+
+<h4><strong>A. Permintaan</strong></h4>
+
+<p>Diketahui apabila harga barang X Rp 500, maka permintaan sebanyak 100 unit. Turunnya harga barang X tersebut menjadi Rp 400, menyebabkan naiknya jumlah barang yang diminta menjadi 150 unit. Berapakan besarnya koefisien elastisitas permintaan barang X tersebut?</p>
+
+<p><strong> Jawab </strong></p>
+
+<p><br /></p>
+
+<p><img src="/images/gbr1.png" title="Gambar 1" ></p>
+
+<p><br /></p>
+
+<blockquote><p>Ed = - 2,5 (tanda minus hanya menunjukan arah perubahan yang negatif yaitu sifat hubungan antara harga dan kuantitas berlawanan arah)</p>
+
+<p>Maka Ed = 2,5 > 1 yang berarti <strong> elastis </strong></p></blockquote>
+
+<p><br /></p>
+
+<p><img src="/images/gbr2.png" title="Gambar 2" ></p>
+
+<p><br /></p>
+
+<h4><strong>B. Penawaran</strong></h4>
+
+<p>Naiknya harga barang X dari Rp 200 menjadi Rp 250, menyebabkan bertambahnya jumlah barang yang ditawarkan dari 150 unit menjadi 200 unit. Berapakah besarnya koefisien elastistas harga penawarannya?</p>
+
+<p><strong> Jawab </strong></p>
+
+<p><br /></p>
+
+<p><img src="/images/gbr3.png" title="Gambar 3" ></p>
+
+<p><br /></p>
+
+<p>Jadi Es = 1,27 > 1 yang berarti <strong> elastis </strong></p>
+
+<p><br /></p>
+
+<p><img src="/images/gbr4.png" title="Gambar 4" ></p>
+
+<p><br /></p>
+
+<h3>2. Elastisitas Silang</h3>
+
+<p>Apabila harga tiket bus Rp 40.000, maka harga tiket KA dengan jurusan yang sama berada dibawah harga tiket bus. Dan permintaan rata-rata tiket KA tersebut sebanyak 2000. Jika harga tiket bus naik menjadi Rp 45.000, sementara harga tiket KA tetap, maka permintaan tiket KA tersebut akan mengalami kenaikan menjadi 2300. Berapakah besarnya koefisien elastisitas silangnya?</p>
+
+<p><strong> Jawab </strong></p>
+
+<p><br /></p>
+
+<p><img src="/images/gbr5.png" title="Gambar 5" ></p>
+
+<p><br /></p>
+
+<p>Jadi Ec = 1,08 > 1 yang berarti <strong> elastis </strong></p>
+
+<hr />
+
+
+<p style="text-align:center;">Sumber : <a href="https://www.scribd.com/doc/97041676/Contoh-Kasus-Elastisitas">Scribd</a></p>
+
+<hr />
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Struktur Pasar]]></title>
@@ -578,88 +658,6 @@ Seorang produsen mempunyai satu masalah pokok, yaitu bagaimana dengan sumber day
 
 
 <p style="text-align:center;">Sumber : <a href="http://id.wikipedia.org/wiki/Perilaku_konsumen">Wikipedia</a></p>
-
-<hr />
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elastisitas]]></title>
-    <link href="http://blog.lukmanh.com/blog/2015/03/18/elastisitas/"/>
-    <updated>2015-03-18T11:33:26+07:00</updated>
-    <id>http://blog.lukmanh.com/blog/2015/03/18/elastisitas</id>
-    <content type="html"><![CDATA[<p>Dalam ilmu ekonomi, elastisitas permintaan atau price elasticity of demand (PED) adalah ukuran kepekaan perubahan jumlah permintaan barang terhadap perubahan harga.</p>
-
-<!-- more -->
-
-
-<p>Elastisitas permintaan mengukur seberapa besar kepekaan perubahan jumlah permintaan barang terhadap perubahan harga. Ketika harga sebuah barang turun, jumlah permintaan terhadap barang tersebut biasanya naik —semakin rendah harganya, semakin banyak benda itu dibeli. Elastisitas permintaan ditunjukan dengan rasio persen perubahan jumlah permintaan dan persen perubahan harga.</p>
-
-<p>Ketika elastisitas permintaan suatu barang menunjukkan nilai lebih dari 1, maka permintaan terhadap barang tersebut dikatakan elastis di mana besarnya jumlah barang yang diminta sangat dipengaruhi oleh besar-kecilnya harga. Sementara itu, barang dengan nilai elastisitas kurang dari 1 disebut barang inelastis, yang berarti pengaruh besar-kecilnya harga terhadap jumlah-permintaan tidak terlalu besar. Sebagai contoh, jika harga sepeda motor turun 10% dan jumlah permintaan atas sepeda motor itu naik 20%, maka nilai elastisitas permintaannya adalah 2; dan barang tersebut dikelompokan sebagai barang elastis karena nilai elastisitasnya lebih dari 1. Perhatikan bahwa penurunan harga sebesar 1% menyebabkan peningkatan jumlah permintaan sebesar 2%, dengan demikian dapat dikatakan bahwa jumlah permintaan atas sepeda motor sangat dipengaruhi oleh besarnya harga yang ditawarkan.</p>
-
-<p><br /></p>
-
-<div class="table-responsive">
-    <table class="table table-bordered table-striped table-hover">
-        <tr>
-            <th>Koefisien</th>
-            <th>Elastisitas</th>
-        </tr>
-        <tr>
-            <td>
-                n = 0
-            </td>
-            <td>
-                Inelastis Sempurna
-            </td>
-        </tr>
-        <tr>
-            <td>
-                0 < n < 1
-            </td>
-            <td>
-                Inelastis
-            </td>
-        </tr>
-        <tr>
-            <td>
-                n = 1
-            </td>
-            <td>
-                Elastis Uniter
-            </td>
-        </tr>
-        <tr>
-            <td>
-                1 < n < ∞
-            </td>
-            <td>
-                Elastis
-            </td>
-        </tr>
-        <tr>
-            <td>
-                n = ∞
-            </td>
-            <td>
-                Elastis Sempurna
-            </td>
-        </tr>
-    </table>
-</div>
-
-
-<p><br /></p>
-
-<p>Untuk barang-barang normal, penurunan harga akan berakibat pada peningkatan jumlah permintaan. Permintaan terhadap sebuah barang dapat dikatakan inelastis bila jumlah barang yang diminta tidak dipengaruhi oleh perubahan harga. Barang dan jasa yang tidak memiliki substitusi biasanya tergolong inelastis. Permintaan terhadap antibiotik, misalnya, dikatakan sebagai permintaan inelastis karena tidak ada barang lain yang dapat menggantikannya. Daripada mati terinfeksi bakteri, pasien biasanya lebih memilih untuk membeli obat ini berapapun biayanya. Sementara itu, semakin banyak sebuah barang memiliki barang substitusi, semakin elastis barang tersebut.</p>
-
-<p>Meskipun permintaan inelastis sering diasosiasikan dengan barang &ldquo;kebutuhan,&rdquo; banyak juga barang yang bersifat inelastis meskipun konsumen mungkin tidak &ldquo;membutuhkannya.&rdquo; Permintaan terhadap garam, misalnya, menjadi permintaan inelastis bukan karena konsumen sangat membutuhkannya, melainkan karena harganya yang sangat murah.</p>
-
-<hr />
-
-
-<p style="text-align:center;">Sumber : <a href="http://id.wikipedia.org/wiki/Elastisitas_permintaan">Wikipedia</a></p>
 
 <hr />
 
