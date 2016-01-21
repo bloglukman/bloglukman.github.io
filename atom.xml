@@ -4,7 +4,7 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2015-10-29T11:09:49+07:00</updated>
+  <updated>2016-01-21T13:44:49+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Paradigma]]></title>
+    <link href="http://blog.lukmanh.com/blog/2016/01/21/paradigma/"/>
+    <updated>2016-01-21T13:40:55+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2016/01/21/paradigma</id>
+    <content type="html"><![CDATA[<p>Paradigma adalah cara memandang sesuatu dalam keadaan  atau pola pikir berdasarkan pandangan menyeluruh dan sebagai dasar untuk menyeleksi berbagai permasalahan. Paradigma disebut juga sebagai kerangka berpikir.</p>
+
+<!-- more -->
+
+
+<p>Unsur-unsurnya adalah sebagai berikut :</p>
+
+<h3>1. Asumsi</h3>
+
+<p>Asumsi adalah anggapan atau pendapat yang menjadi titik tolak seorang. asumsi bisa dikatakan sebagai dugaan, pikiran yang dianggap benar untuk sementara sebelum ada kepastian. Dalam hal menentukan asumsi itu ada hal-hal yang harus diperhatikan yaitu : asumsi harus operasional, harus menyatakan sebenarnya, harus dinyatakan tersurat.</p>
+
+<h3>2. Nilai</h3>
+
+<p>Dalam cara memandang sesuatu pasti kita mempunyai nilai. nilai yang menjadi sumber dari sumber hukum, metode, dan penerapan ilmu yang menentukan sifat, ciri, dan karakter ilmu pengetahuan itu sendiri.</p>
+
+<h3>3. Model</h3>
+
+<p>Paradigma juga memiliki model, yaitu kualitatif dalam proses ini merupakan sesuatu yang lebih penting dibanding dengan &lsquo;hasil&rsquo; yang diperoleh. Dalam penelitian kualitatif adalah saat model humanistik, yang menempatkan manusia sebagai subyek utama dalam peristiwa sosial/budaya.</p>
+
+<h3>4. Penelitian dan Pengkajian</h3>
+
+<p>Selanjutnya ialah meneliti dan mengkaji masalah yang ada, penelitian disini adalah cara pengamatan dan mempunyai tujuan untuk mencari jawaban permasalahan dan hasil temuan. Pengkajian adalah proses atau penelaahan dalam penyelidikan (pelajaran yang mendalam).</p>
+
+<h3>5. Konsep-Konsep Pokok</h3>
+
+<p>Konsep-konsep pokok dari paradigma sendiri adalah suatu ide atau gambaran mental, yang dinyatakan dalam suatu kata atau simbol. konsep dinyatakan sebagai bagian dari pengetahuan yang dibangun dari berbagai macam karakteristik.</p>
+
+<h3>6. Metode Penelitian</h3>
+
+<ul>
+<li>Fakta : hasil pengamatan yang objektid dapat dilakukan verifikasi oleh siapapun. fakta seringkali diyakini oleh orang banyak(umum) sebagai hal yang sebenarnya, baik karena mereka telah mengalami kenyataan-kenyataan dari dekat maupun karena mereka dianggp telah melaporkan pengalaman orang lain yang sesungguhnya.</li>
+<li>realita : sesuatu yang kita benarkan, benar apa yang kita yakini, apa yang kita persepsikan dan benar itulah realita yang kita miliki.</li>
+<li>Data : dalam penelitian pasti ada sumber data dan metode pengumpulan data. dimana sumber data tersebut terbagi menjadi dua yaitu data primer dan data sekunder. data primer adalah data yang diperoleh peneliti secara langsung dan data sekunder adalah data yang diperoleh peneliti dari sumber yang sudah ada.
+metode pengumpulan data ini merupakan faktor penting demikeberhasilan penelitian, karena berkaitan dengan bagaimana cara mengumpulkan data, siapa sumbernya dan apa alat yang digunakan.
+metode kualitatif terdiri dari fakta dan realita sedangkan kuantitatif terdiri dari data.</li>
+</ul>
+
+
+<h3>7. Metode Analisis</h3>
+
+<p>Analisis Data Kuantitatif dan Kualitatif, Analisis Data Kuantitatif adalah kegiatan setelah data dari seluruh responden atau sumber data lain terkumpul, menggunakan statistik.
+Analisis Data Kualitatif adalah kegiatan data yang diperoleh berbagai sumber dengan menggunakan teknik pengumpulan data yang bermacam-macam dan dilakukan secara terus menerus. Dilakukan sebelum memasuki lapangan, selama dilapangand an setelah selesai dilapangan.</p>
+
+<h3>8. Hasil Analisis</h3>
+
+<p>Hasil Analisisnya adalah penafsiran hasil analisis tersebut, yaitu untuk menarik kesimpulan dengan cara membandingkan hipotesis yang telah dirumuskan.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ilmu Pengetahuan Dan Bahasa]]></title>
@@ -1872,145 +1926,6 @@ Tiap-tiap negara bahkan suku-suku bangsa di suatu negara mempunyai tradisi, pref
 <p style="text-align:center;"><a href="http://gandekan01bantul.wordpress.com/tupoksi-tugas-pokok-dan-fungsi-pengurus-rt/">Sumber</a></p>
 
 <hr />
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Java]]></title>
-    <link href="http://blog.lukmanh.com/blog/2014/10/30/hello-java/"/>
-    <updated>2014-10-30T11:42:27+07:00</updated>
-    <id>http://blog.lukmanh.com/blog/2014/10/30/hello-java</id>
-    <content type="html"><![CDATA[<p>Hal pertama yang kita pelajari dalam membuat program komputer adalah menampilkan &ldquo;Hello World!&rdquo;. Pada kesempatan kali ini saya akan menjelaskan bagaimana membuat program tersebut pada Java. Sebelum memulai anda harus mengenal dulu :</p>
-
-<!-- more -->
-
-
-<ul>
-<li>Package</li>
-<li>Class</li>
-<li>Method</li>
-<li>Main Method</li>
-</ul>
-
-
-<h3>1. Package</h3>
-
-<p>Package adalah sarana/cara pengelompokkan dan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library.</p>
-
-<h3>2. Class</h3>
-
-<p>Class mendefinisikan sekumpulan objek yang memiliki kesamaan keadaan dan perilaku. Class digunakan untuk membuat objek, dan berperan sebagai tipe data dari objek. Class merupakan sarana pengkapsulan kumpulan data dan kumpulan method yang mengoperasikan kumpulan data tersebut.</p>
-
-<h3>3. Method</h3>
-
-<p>Sebuah method adalah bagian-bagian kode yang dapat dipanggil oleh program utama atau dari method lainnya untuk menjalankan fungsi yang spesifik.</p>
-
-<h3>4. Main Method</h3>
-
-<p>Method main()adalah method utama yang pasti dimiliki oleh semua program java (selain applet) dan akan dieksekusi pertama kali pada saat program dijalankan.</p>
-
-<hr />
-
-
-<p>Sekarang kita akan membuat &ldquo;Hello World!&rdquo; pada Java.</p>
-
-<p><strong>1. Buat File Java</strong></p>
-
-<p>Buat file berekstensi <code>.java</code>. Jangan ada karakter <code>spasi</code> karena File yang kita buat akan menjadi nama class. Saya beri nama File saya <code>Hello.java</code>.</p>
-
-<p><br />
-<strong>2. Mendeklarasi class</strong></p>
-
-<p>Buka file yang telah anda buat dengan text editor seperti notepad atau bila perlu notepad++ agar code program lebih mudah dibaca. dibawah ini adalah Contoh class pada java.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi nama filenya <code>Hello.java</code></p>
-
-<p><br />
-<strong>3. Membuat Method Main</strong></p>
-
-<p>Buat main metode didalam class Hello. code program menjadi seperti dibawah.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
-</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><br />
-<strong>4. Menampilkan &ldquo;Hello World!&rdquo;</strong></p>
-
-<p>Untuk menampilkan output dilayar shell pada java kita dapat gunakan <code>System.out.print</code>. Sehingga kode program menjadi seperti gambar dibawah.</p>
-
-<figure class='code'><figcaption><span> (Hello.java)</span> <a href='http://blog.lukmanh.com/downloads/code/java/Hello.java'>download</a></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
-</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
-</span><span class='line'>      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
-</span><span class='line'>  <span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong> 5. Compile dan Run</strong></p>
-
-<p>Agar program dapat dijalankan tentu kita harus mengkompilasi kode program yang telah kita buat, untuk meng-compile ikuti langkah langkah dibawah :</p>
-
-<ul>
-<li>Buka cmd / terminal</li>
-<li>pindah ke direktori tempat kita membuat file dangan perintah cd. contoh jika kita membuat di
-desktop</li>
-</ul>
-
-
-<figure class='code'><figcaption><span>Linux </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ cd ~/Desktop
-</span></code></pre></td></tr></table></div></figure>
-
-
-<figure class='code'><figcaption><span>Windows </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="gp">&gt; </span>cd C<span class="o">:</span>\Users\username\Desktop\
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Compile kode program seperti contoh dibawah</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>javac Hello.java</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>jalankan hasil compile seperti contoh dibawah</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>java Hello</span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
   </entry>
