@@ -3,6 +3,22 @@
   
   
   <url>
+    <loc>http://blog.lukmanh.com/blog/2016/01/26/penelitian-karya-ilmiah/</loc>
+    
+    <lastmod>2016-01-26T08:56:01+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.lukmanh.com/blog/2016/01/26/metode-penalaran-deduktif-dan-induktif/</loc>
+    
+    <lastmod>2016-01-26T08:55:22+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.lukmanh.com/blog/2016/01/21/paradigma/</loc>
     
     <lastmod>2016-01-21T13:40:55+07:00</lastmod>
@@ -197,21 +213,21 @@
   
   <url>
     <loc>http://blog.lukmanh.com/blog/archives/</loc>
-    <lastmod>2016-01-21T13:44:49+07:00</lastmod>
+    <lastmod>2016-01-26T09:28:21+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://blog.lukmanh.com/</loc>
-    <lastmod>2016-01-21T13:44:49+07:00</lastmod>
+    <lastmod>2016-01-26T09:28:21+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://blog.lukmanh.com/blog/about/</loc>
-    <lastmod>2016-01-21T13:44:49+07:00</lastmod>
+    <lastmod>2016-01-26T09:28:21+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
