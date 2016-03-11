@@ -4,7 +4,7 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2016-01-26T09:28:21+07:00</updated>
+  <updated>2016-03-11T23:34:57+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,103 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Langkah - Langkah Meng-crimping Kabel Utp Dan Membuat Jaringan Peer to Peer]]></title>
+    <link href="http://blog.lukmanh.com/blog/2016/03/11/angkah-langkah-meng-crimping-kabel-utp-dan-membuat-jaringan-peer-to-peer/"/>
+    <updated>2016-03-11T23:10:57+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2016/03/11/angkah-langkah-meng-crimping-kabel-utp-dan-membuat-jaringan-peer-to-peer</id>
+    <content type="html"><![CDATA[<p>Saya akan menjelaskan cara mengcrinping kabel UTP ke RJ45 (straight dan cross) dan membuat jaringan peer to peer. Sebelum kita memasang kita terlebih dahulu harus mengetahui standart pemasangannya. Standart pemasangannya ada dua, yaitu 568A dan 568B .</p>
+
+<!-- more -->
+
+
+<p>568A = PH, H, PO, B, PB, O, PC, C <br/>
+568B = PO, O, PH, B, PB, H, PC, C</p>
+
+<p>Keterangan :</p>
+
+<ul>
+<li>PO = Putih Oren</li>
+<li>O   = Oren</li>
+<li>PH = Putih Hijau</li>
+<li>H   = Hijau</li>
+<li>PB = Putih Biru</li>
+<li>B   = Biru</li>
+<li>PC = Putih Coklat</li>
+<li>C   = Coklat</li>
+</ul>
+
+
+<p>Sebelum mulai mengcrimping , kalian harus menyiapkan beberapa peralatan.</p>
+
+<ul>
+<li>Tang crimping</li>
+<li>Kabel UTP</li>
+<li>RJ45</li>
+<li>Tester</li>
+</ul>
+
+
+<p>Lalu kita bisa mulai mengcrimpig . langkah-langkah :</p>
+
+<ul>
+<li>Pertama siapkan kabel UTP-nya, potong sesuai yang kita inginkan . Setelah kita potong , kita kupas kulitnya dengan menggunakan tang crimping sampai terlihat kabel bagian dalamnya, seperti pada gambar.</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="http://blog.lukmanh.com/images/crimp-1.jpeg" title="Gambar 1" ></p>
+
+<hr />
+
+
+<ul>
+<li>Susun warna kabel sesuai urutan, pada gambar dibawah adalah susunan Straight</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="http://blog.lukmanh.com/images/crimp-2.jpg" title="Gambar 2" ></p>
+
+<hr />
+
+
+<ul>
+<li>Setelah rata lalu kita masukan ke RJ45 nya . masukan dengan perlhan-lahan dan jangan samapi ada kabel yang menyilang atau terselip. Pastikan lurus dan terpasang dengan pas.</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="http://blog.lukmanh.com/images/crimp-3.jpeg" title="Gambar 3" ></p>
+
+<hr />
+
+
+<ul>
+<li>Masukkan dan jepitkan kabel UTP dan RJ45yang telah disatukan pada lubang yang terdapat pada tang crimping.</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="http://blog.lukmanh.com/images/crimp-4.jpg" title="Gambar 4" ></p>
+
+<hr />
+
+
+<ul>
+<li><p>Jika satu ujung tersusun cross maka ujung yang lain harus straight, jika straight ujung yang lain dapat berupa cross ataupun straight.</p></li>
+<li><p>Colokan kedua kabel ke pc atau laptop</p></li>
+<li><p>Konfigurasi IP secara static, misal PC 1 diberi IP : 192.168.1.1 dan PC 2 diberi IP : 192.168.1.2.</p></li>
+<li><p>Lakukan test ping dengan CMD, dengan perintah ping 192.168.1.1</p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Penelitian Karya Ilmiah]]></title>
@@ -1651,106 +1748,6 @@ penggantian blok data cache memory maka baru diadakan penulisan pada memori utam
 <li><p>Miss kapasitas : terjadi karena program menyentuh banyak word yang lain sebelum menyentuh ulang word yang sama. Merupakan miss untuk cache fully- associative.</p></li>
 <li><p>Miss konflik : terjadi karena dua work dipetakan ke lokasi yg sama di cache. Merupakan miss yang terjadi ketika berganti dari cache fully-associative kedirect-mapped.</p></li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cache Memory]]></title>
-    <link href="http://blog.lukmanh.com/blog/2014/11/20/cache-memory/"/>
-    <updated>2014-11-20T14:20:24+07:00</updated>
-    <id>http://blog.lukmanh.com/blog/2014/11/20/cache-memory</id>
-    <content type="html"><![CDATA[<p>Cache memory merupakan lokasi data sementara antara prosesor dengan main memory. Penempatan cache memory ditujukan untuk mengurangi gap antara kecepatan prosesor dengan kecepatan main memory. Gambar 1 di bawah ini menunjukkan posisi cache memory yang diletakkan antara prosesor (CPU) dengan main memory. Sedangkan Gambar 2 memperlihatkan sistem interkoneksi untuk cache memory.</p>
-
-<!-- more -->
-
-
-<p><img src="http://blog.lukmanh.com/images/1.png" title="Gambar 1" ></p>
-
-<p style="text-align:center;"><strong> Gambar 1 </strong></p>
-
-<hr />
-
-
-<p><img class="center" src="http://blog.lukmanh.com/images/2.png" title="Gambar 2" ></p>
-
-<p style="text-align:center;"><strong> Gambar 2 </strong></p>
-
-<p>Cache berasal dari kata cash. Dari istilah tersebut cache adalah tempat menyembunyikan atau tempat menyimpan sementara. Sesuai definisi tersebut cache memory adalah tempat menympan data sementara. Cara ini dimaksudkan untuk meningkatkan transfer data dengan menyimpan data yang pernah diakses pada cache memory tersebut, sehingga apabila ada data yang ingin diakses adalah data yang sama maka maka akses akan dapat dilakukan lebih cepat. Cache memory ini adalah memori tipe SDRAM yang memiliki kapasitas terbatas namun memiliki kecepatan yang sangat tinggi dan harga yang lebih mahal dari memori utama. Cache memory ini terletak antara register dan RAM (memori utama) sehingga pemrosesan data tidak langsung mengacu pada memori utama.</p>
-
-<p>Karakteristik cache memory adalah sebagai berikut:</p>
-
-<ul>
-<li><p>Kapasitas relatif lebih kecil dari main memory, tetapi memiliki kecepatan
-yang relativ lebih tinggi dibanding main memory;</p></li>
-<li><p>Cache memory merupakan suatu memori buffer (salinan data) bagi
-memori utama;</p></li>
-<li><p>Meskipun cache menggunakan informasi yang tersimpan dalam memori
-utama, tetapi ia tidak berhadapan secara langsung dengan memori utama;</p></li>
-<li><p>Word yang disimpan didalam cache memory adalah word yang diambil dari
-main memory, yang dikerjakan sesuai perintah CPU.</p></li>
-</ul>
-
-
-<hr />
-
-
-<h3>Level Cache Memory</h3>
-
-<p>Hingga saat ini, cache memory terbagi atas tiga level yaitu L1, L2 dan L3. Cache memory memori level 1 (L1) adalah cache memory yang terletak dalam prosesor (internal cache). Cache memory ini memiliki kecepatan akses paling tinggi dan harganya paling mahal. Ukuran memori berkembang mulai dari 8KB, 64KB dan 128KB. Cache memory level 2 (L2) memiliki kapasitas yang lebih besar yaitu berkisar antara 256KB sampai dengan 2MB. Namun, cache memory L2 ini memiliki kecepatan yang lebih rendah dari cache memory L1. Cache memory L2 terletak terpisah dengan prosesor atau disebut dengan external cache.Sedangkan cache memory level 3 hanya dimiliki oleh prosesor yang memiliki unit lebih dari satu misalnya dualcore dan quadcore. Fungsinya adalah untuk mengontrol data yang masuk dari tembolok L2 dari masing-masing inti prosesor.</p>
-
-<p>Level 2 atau L2 cache merupakan bagian dari strategi penyimpanan multi level untuk meningkatkan performa komputer. Terdapat tiga level cache yang digunakan pada komputer, yaitu L1, L2 dan L3 cache. Tiap-tiap cache tersebut menjembatani jarak (gap) diantara processor yang sangat cepat, dengan memori RAM (Random Access Memory) yang jauh lebih lambat.</p>
-
-<p>Sementara desainnya terus mengalami perubahan, L1 cache biasanya telah terintegrasi (built in) ke dalam processor, sementara L2 cache biasanya terintegrasi pada motherboard (bersamaan dengan L2 cache). Namun, beberapa processor kini menggabungkan L2 cache serta L1 cache, dan bahkan beberapa diantaranya juga menggungkan L3 cache. Kecepatan yang paling tinggi terdapat pada L1 cache, kemudian menurun pada L2 dan L3 cache. Namun kebalikannya, semakin besar angka cache, maka semakin besar pula kapasitas penyimpanan datanya.</p>
-
-<p><img class="center" src="http://blog.lukmanh.com/images/3.png" title="Gambar 3" ></p>
-
-<p style="text-align:center;"><strong> Gambar 3 </strong></p>
-
-<p>Tugas dari cache processor adalah untuk mengantisipasi data request, sehingga ketika pengguna mengakses sebuah program yang sering digunakan, sebagai contohnya, instruksi-instruksi yang dibutuhkan untuk menjalankan program tersebut telah siap digunakan, disimpan pada cache. Ketika hal ini terjadi, CPU dapat memproses request tanpa adanya jeda (delay), sehingga dapat meningkatkan performa komputer secara drastis.</p>
-
-<p>CPU pertama-tama akan memeriksa L1 cache, diikuti dengan L2 dan L3 cache. Jika processor telah menemukan bit data yang dibutuhkan, maka disebut dengan cache hit. Namun jika cache tidak menyediakan bit data yang dibutuhkan, processor mendapatkan sebuah cache miss, dan data perlu ditarik dari RAM yang lebih lambat atau hard disk yang juga lebih lambat.</p>
-
-<hr />
-
-
-<h3>Kapasitas Cache</h3>
-
-<p>Menentukan ukuran cache memory sangatlah penting untuk mendongkrak kinerja komputer. Dari segi harga cache memory sangatlah mahal tidak seperti memori utama. Semakin besar kapasitas cache tidak berarti semakin cepat prosesnya, dengan ukuran besar akan terlalu banyak gate pengalamatannya sehingga akan
-memperlambat proses.</p>
-
-<p>Kita bisa melihat beberapa merek prosesor di pasaran beberapa waktu lalu. AMD mengeluarkan prosesor K5 dan K6 dengan cache memory yang besar (1MB) tetapi kinerjanya tidak bagus. Kemudian Intel pernah mengeluarkan prosesor tanpa cache memory untuk alasan harga yang murah, yaitu seri Intel Celeron pada tahun 1998-an hasil kinerjanya sangat buruk terutama untuk operasi data besar, floating point, 3D.</p>
-
-<p>Intel Celeron versi berikutnya sudah ditambah cache memory sekitar 128KB.
-Lalu berapa idealnya kapasitas cache memory? Sejumlah penelitian telah
-menganjurkan bahwa ukuran cache antara 1KB dan 512KB akan lebih optimum.</p>
-
-<hr />
-
-
-<h3>Ukuran Blok</h3>
-
-<p>Elemen rancangan yang harus diperhatikan lagi adalah ukuran blok. Telah dijelaskan adanya sifat lokalitas referensi maka nilai ukuran blok sangatlah penting. Apabila blok berukuran besar ditransfer ke cache akan menyebabkan hit ratio mengalami penurunan karena banyaknya data yang dikirim disekitar referensi. Tetapi apabila terlalu kecil, dimungkinkan memori yang akan dibutuhkan CPU tidak tercakup.</p>
-
-<p>Apabila blok berukuran besar ditransfer ke cache, maka akan terjadi :</p>
-
-<ol>
-<li><p>Blok-blok yang berukuran lebih besar mengurangi jumlah blok yang menempati cache. Karena isi cache sebelumnya akan ditindih.</p></li>
-<li><p>Dengan meningkatnya ukuran blok maka jarak setiap word tambahan menjadi lebih jauh dari word yang diminta, sehingga menjadi lebih kecil kemungkinannya digunakan cepat.</p></li>
-</ol>
-
-
-<p>Hubungan antara ukuran blok dan hit ratio sangat rumit untuk dirumuskan,
-tergantung pada karakteristik lokalitas programnya dan tidak terdapat nilai optimum
-yang pasti telah ditemukan. Ukuran antara 4 hingga 8 satuan yang dapat dialamati
-(word atau byte) cukup beralasan untuk mendekati nilai optimum.</p>
-
-<hr />
-
-
-<p style="text-align:center;"><a href="http://files.yogaprihastomo.com/Kuliah/Strata%20Dua/Semester%201/Tugas%20Arsitektur%20dan%20Organisasi%20Komputer%20-%20Cache%20Memory.pdf">Sumber</a></p>
-
-<hr />
 
 ]]></content>
   </entry>
