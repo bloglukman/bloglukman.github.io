@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mapping Cache Memory - Lukman&#8217;s Blog</title>
+  <meta name="author" content="Lukman Hakim">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.lukmanh.com/blog/2014/11/20/mapping-cache-memory">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="Lukman's Blog" type="application/atom+xml">
+
+  <!-- http://opengraphprotocol.org/ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://blog.lukmanh.com/blog/2014/11/20/mapping-cache-memory">
+  <meta property="og:title" content="Mapping Cache Memory - Lukman's Blog">
+  
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+
+<link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Lukman&#8217;s Blog</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a rel="index" href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+                <li >
+                    <a href="/blog/about">About</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="subscribe-email" href="mailto:lukmanh1995@gmail.com" title="subscribe via email">
+                        <span class="visible-xs">Email</span>
+                        <img class="hidden-xs" src="/images/email.png" alt="Email">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:blog.lukmanh.com">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="Lukman's Blog" />
+    
+    <meta itemprop="url" content="http://blog.lukmanh.com" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-11-20T21:47:18+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-11-20T21:47:18+07:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:47 pm</span></time></time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        Mapping Cache Memory
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix" itemprop="articleBody description"><p>Karena saluran cache memory lebih sedikit dibandingkan dengan blok memori utama, maka diperlukan algoritma untuk pemetaan blok memori utama ke dalam saluran cache memory. Pemilihan terhadap fungsi pemetaan akan sangat menentukan bentuk organisasi cache memory.</p>
+
+<!-- more -->
+
+
+<p>Telah kita ketahui bahwa cache memory mempunyai kapasitas yang kecil dibandingkan memori utama. Sehingga diperlukan aturan blok-blok mana yang diletakkan dalam cache memory. Terdapat tiga metode, yaitu pemetaan langsung (direct mapping), pemetaan asosiatif, dan pemetaan asosiatif set.</p>
+
+<h3>Direct Mapping</h3>
+
+<ul>
+<li>Setiap blok pada main memory dipetakan dengan line tertentu pada cache.di mana i adalah nomor line pada cache yang digunakan untuk meletakkan blok main memory ke-j.
+  <hr />
+  <blockquote><p><b>i = j modulo C</b></p></blockquote>
+  <hr /></li>
+<li>Jika M = 64 dan C = 4, maka pemetaan antara line dengan blok menjadi seperti berikut :
+
+<ul>
+<li>Line 0 can hold blocks 0, 4, 8, 12, &hellip;</li>
+<li>Line 1 can hold blocks 1, 5, 9, 13, &hellip;</li>
+<li>Line 2 can hold blocks 2, 6, 10, 14, &hellip;</li>
+<li>Line 3 can hold blocks 3, 7, 11, 15, &hellip;</li>
+</ul>
+</li>
+</ul>
+
+
+<p><br /></p>
+
+<ul>
+<li>Pada cara ini, address pada main memory dibagi 3 field atau bagian, yaitu:
+
+<ul>
+<li>Tag identifier.</li>
+<li>Line number identifier</li>
+<li>Word identifier (offset)</li>
+</ul>
+</li>
+</ul>
+
+
+<p><br /></p>
+
+<ul>
+<li><p>Word identifier berisi informasi tentang lokasi word atau unit addressable lainnya dalam line tertentu pada cache.</p></li>
+<li><p>Line identifier berisi informasi tentang nomor fisik (bukan logika) line pada cache.</p></li>
+<li><p>Tag identifier disimpan pada cache bersama dengan blok pada line.</p>
+
+<ul>
+<li>Untuk setiap alamat memory yang dibuat oleh CPU, line tertentu yang menyimpan copy alamat tersebut ditentukan, jika blok tempat lokasi data tersebut sudah dikopi dari main memory ke cache.</li>
+<li>Tag yang ada pada line akan dicek untuk melihat apakah benar blok yang dimaksud ada pada line tsb.</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+
+<p><img class="center" src="/images/4.png" title="Gambar 1" ></p>
+
+<p style="text-align:center;"><strong> Gambar Organisasi Direct Mapping. </strong></p>
+
+<hr />
+
+
+<p><strong> Keuntungan </strong> menggunakan Direct Mapping antara lain:</p>
+
+<ul>
+<li><p>Mudah dan murah diimplementasikan.</p></li>
+<li><p>Mudah untuk menentukan letak salinan data main memory pada cache.</p></li>
+</ul>
+
+
+<p><br /></p>
+
+<p><strong> Kerugian </strong> menggunakan Direct Mapping antara lain:</p>
+
+<ul>
+<li><p>Setiap blok main memory hanya dipetakan pada 1 line saja. Terkait dengan sifat lokal pada main memory, sangat mungkin mengakses blok yang dipetakan pada line yang sama pada cache. Blok seperti ini akan menyebabkan seringnya sapu masuk dan keluar data ke/dari cache, sehingga hit ratio mengecil.</p></li>
+<li><p>Hit ratio adalah perbandingan antara jumlah ditemukan- nya data pada cache dengan jumlah usaha mengakses cache.</p></li>
+</ul>
+
+
+<hr />
+
+
+<p><img class="center" src="/images/5.png" title="Gambar 2" ></p>
+
+<p style="text-align:center;"><strong> Gambar Contoh Pengalamatan Direct Mapping. </strong></p>
+
+<hr />
+
+
+
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <center><b><i><u>Tabel Direct Mapping</u></i></b></center>
+        <br />
+        <table class="table table-striped">
+            <tr>
+                <th>Item</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Panjang alamat</td>
+                <td>(s + w) bits</td>
+            </tr>
+            <tr>
+                <td>Jumlah unit yang dapat dialamati</td>
+                <td>2s+w words or bytes</td>
+            </tr>
+            <tr>
+                <td>Ukuran Blok sama dengan ukuran Line</td>
+                <td>2w words or bytes</td>
+            </tr>
+            <tr>
+                <td>Jumlah blok di memori utama</td>
+                <td>2s+ w/2w = 2s</td>
+            </tr>
+            <tr>
+                <td>Jumlah line di cache</td>
+                <td>m = 2r</td>
+            </tr>
+            <tr>
+                <td>Besarnya tag</td>
+                <td>(s – r) bits</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+<hr />
+
+
+<h3>Associative Mapping</h3>
+
+<ul>
+<li><p>Memungkinkan blok diletakkan di sebarang line yang sedang tidak terpakai.</p></li>
+<li><p>Diharapkan akan mengatasi kelemahan utama Direct Mapping.</p></li>
+<li><p>Harus menguji setiap cache untuk menemukan blok yang diinginkan.</p>
+
+<ul>
+<li>Mengecek setiap tag pada line</li>
+<li>Sangat lambat untuk cache berukuran besar.</li>
+</ul>
+</li>
+<li><p>Nomor line menjadi tidak berarti. Address main memory dibagi menjadi 2 field saja,
+yaitu tag dan word offset.</p></li>
+</ul>
+
+
+<hr />
+
+
+<p><img class="center" src="/images/6.png" title="Gambar 3" ></p>
+
+<p style="text-align:center;"><strong> Gambar Organisasi Associative Mapping. </strong></p>
+
+<hr />
+
+
+<ul>
+<li><p>Melakukan pencarian ke semua tag untuk menemukan blok.</p></li>
+<li><p>Cache dibagi menjadi 2 bagian :</p>
+
+<ul>
+<li>lines dalam SRAM</li>
+<li>tag dalam associative memory</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+
+<p><img class="center" src="/images/7.png" title="Gambar 4" ></p>
+
+<p style="text-align:center;"><strong> Gambar Contoh Pengalamatan Associative Mapping. </strong></p>
+
+<hr />
+
+
+<p><strong> Keuntungan </strong> Associative Mapping:</p>
+
+<ul>
+<li>cepat dan fleksibel.</li>
+</ul>
+
+
+<p><strong> Kerugian </strong> Associative Mapping:</p>
+
+<ul>
+<li><p>biaya implementasi. Misalnya :</p>
+
+<ul>
+<li>untuk cache ukuran 8 kbyte dibutuhkan 1024 x 17 bit associative memory untuk menyimpan tag identifier.</li>
+</ul>
+</li>
+</ul>
+
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <center><b><i><u>Tabel Associative Mapping</u></i></b></center>
+        <br />
+        <table class="table table-striped">
+            <tr>
+                <th>Item</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Panjang alamat</td>
+                <td>(s + w) bits</td>
+            </tr>
+            <tr>
+                <td>Jumlah unit yang dapat dialamati</td>
+                <td>2s+w words or bytes</td>
+            </tr>
+            <tr>
+                <td>Ukuran Blok sama dengan ukuran Line</td>
+                <td>2w words or bytes</td>
+            </tr>
+            <tr>
+                <td>Jumlah blok di memori utama</td>
+                <td>2s+ w/2w = 2s</td>
+            </tr>
+            <tr>
+                <td>Jumlah line di cache</td>
+                <td>undetermined</td>
+            </tr>
+            <tr>
+                <td>Besarnya tag</td>
+                <td>s bits</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+<hr />
+
+
+<h3>Set Associative Mapping</h3>
+
+<ul>
+<li><p>Merupakan kompromi antara Direct dengan Full Associative Mapping.</p></li>
+<li><p>Membagi cache menjadi sejumlah set (v) yang masing-masing memiliki sejumlah line (k)</p></li>
+<li><p>Setiap blok dapat diletakkan di sebarang line dengan nomor set:
+  <hr />
+  <blockquote><p><b>nomor set = j modulo v</b></p></blockquote>
+  <hr /></p></li>
+</ul>
+
+
+<p><img class="center" src="/images/8.png" title="Gambar 5" ></p>
+
+<p style="text-align:center;"><strong> Gambar Organisasi K-Way Set Associative Mapping. </strong></p>
+
+<hr />
+
+
+<ul>
+<li><p>Jika sebuah set dapat menampung X line, maka cache disebut memiliki X-way set associative cache.</p></li>
+<li><p>Hampir semua cache yang digunakan saat ini menggunakan organisasi 2 atau 4-way set associative mapping.</p></li>
+</ul>
+
+
+<hr />
+
+
+<p><img class="center" src="/images/9.png" title="Gambar 6" ></p>
+
+<p style="text-align:center;"><strong> Gambar Contoh Pengalamatan 2-Way Associative Mapping. </strong></p>
+
+<hr />
+
+
+<ul>
+<li><p>Setiap blok memori dapat menempati lebih dari satu kemungkinan nomor line (dapat menggunakan line yang kosong), sehingga thrashing dapat diperkecil.</p></li>
+<li><p>Jumlah tag lebih sedikit (dibanding model associative), sehingga jalur untuk melakukan perbandingan tag lebih sederhana.</p></li>
+</ul>
+
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <center><b><i><u>Tabel Set Associative Mapping</u></i></b></center>
+        <br />
+        <table class="table table-striped">
+            <tr>
+                <th>Item</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Panjang alamat</td>
+                <td>(s + w) bits</td>
+            </tr>
+            <tr>
+                <td>Jumlah unit yang dapat dialamati</td>
+                <td>2s+w words or bytes</td>
+            </tr>
+            <tr>
+                <td>Ukuran Blok sama dengan ukuran Line</td>
+                <td>2w words or bytes</td>
+            </tr>
+            <tr>
+                <td>Jumlah blok di memory utama</td>
+                <td>2d</td>
+            </tr>
+            <tr>
+                <td>Jumlah line dalam set</td>
+                <td>k</td>
+            </tr>
+            <tr>
+                <td>Jumlah set</td>
+                <td>V=2d</td>
+            </tr>
+            <tr>
+                <td>Jumlah line di cache</td>
+                <td>Kv = k*2d</td>
+            </tr>
+            <tr>
+                <td>Besarnya tag</td>
+                <td>(s-d) bits</td>
+            </tr>>
+        </table>
+    </div>
+</div>
+
+
+
+
+<hr />
+
+
+<h3>Algoritma Penggantian</h3>
+
+<p>Yang dimaksud algoritma penggantian adalah suatu mekanisme pergantian blok-blok dalam cache memory yang lama dengan data baru. Dalam pemetaan langsung tidak diperlukan algoritma ini, namun dalam pemetaan asosiatif dan asosiatif set, algoritma ini mempunyai peranan penting untuk meningkatkan kinerja cache memory.</p>
+
+<p>Banyak algoritma penggantian yang telah dikembangkan. Algoritma yang paling efektif adalah Least Recently Used (LRU), yaitu mengganti blok data yang terlama berada dalam cache memory dan tidak memiliki referensi. Algoritma lainnya adalah First In First Out (FIFO), yaitu mengganti blok data yang awal masuk. Kemudian Least Frequently Used (LFU) adalah mengganti blok data yang mempunyai
+referensi paling sedikit. Teknik lain adalah algoritma Random, yaitu penggantian tidak berdasakan pemakaian datanya, melainkan berdasarkan slot dari beberapa slot kandidat secara acak.</p>
+
+<hr />
+
+
+<h3>Write Policy</h3>
+
+<p>Apabila suatu data telah diletakkan pada cache memory maka sebelum ada penggantian harus dicek apakah data tersebut telah mengalami perubahan. Apabila telah berubah maka data pada memori utama harus di-update. Masalah penulisan ini sangat komplek, apalagi memori utama dapat diakses langsung oleh modul I/O, yang memungkinkan data pada memori utama berubah, lalu bagaimana dengan data yang
+telah dikirim pada cache? Tentunya perbedaan ini menjadikan data tidak valid.</p>
+
+<p>Teknik yang dikenalkan diantaranya, write through, yaitu operasi penulisan melibatkan data pada memori utama dan sekaligus pada cache memory sehingga data selalu valid. Kekurangan teknik ini adalah menjadikan lalu lintas data ke memori utama dan cache memory sangat tinggi sehingga mengurangi kinerja sistem, bahkan bisa terjadi hang. Teknik lainnya adalah write back, yaitu teknik meminimasi penulisan dengan cara penulisan pada cache memory saja. Pada saat akan terjadi
+penggantian blok data cache memory maka baru diadakan penulisan pada memori utama. Masalah yang timbul adalah manakala data di memori utama belum diupdate telah diakses modul I/O sehingga data di memori utama tidak valid.</p>
+
+<p>Penggunaan multi cache terutama untuk multiprocessor adan menjumpai masalah yang lebih komplek. Masalah validasi data tidak hanya antara cache memory dan memori utama saja, namun antar cache memory juga harus diperhatikan. Pendekatan penyelesaian masalah yang dapat dilakukan adalah dengan :</p>
+
+<ul>
+<li><p>Bus Watching with Write Through, yaitu setiap cache controller akan memonitoring bus alamat untuk mendeteksi adanya operasi tulis. Apabila ada operasi tulis di alamat yang datanya digunakan bersama maka cache controller akan menginvalidasi data cache-nya.</p></li>
+<li><p>Hardware Transparency, yaitu adanya perangkat keras tambahan yang menjamin semua updating data memori utama melalui cache direfleksikan pada seluruh cache yang ada.</p></li>
+<li><p>Non Cacheable Memory, yaitu hanya bagian memori utama tertentu yang digunakan secara bersama. Apabila ada mengaksesan data yang tidak di share merupakan kegagalan cache.</p></li>
+</ul>
+
+
+<hr />
+
+
+<h3>Miss Cache</h3>
+
+<p>Saat miss menulis, anda bisa punya pilihan antara membawa blok ke cache (write-allocate) atau tidak (write-no-allocate). Saat miss membaca, anda selalu membawa blok ke cache (lokalitas spasial atau temporal) - blok mana yang diganti:</p>
+
+<ul>
+<li>tidak ada pilihan untuk direct-mapped cache</li>
+<li>memilih secara acak way yang akan diganti</li>
+<li>mengganti way yang paling jarang dipakai (LRU)</li>
+<li>penggantian FIFO (round-robin)</li>
+</ul>
+
+
+<p>Tipe miss cache adalah sebagai berikut:</p>
+
+<ul>
+<li><p>Miss wajib : terjadi saat pertama kali word memori diakses. Merupakan miss untuk cache yang infinit.</p></li>
+<li><p>Miss kapasitas : terjadi karena program menyentuh banyak word yang lain sebelum menyentuh ulang word yang sama. Merupakan miss untuk cache fully- associative.</p></li>
+<li><p>Miss konflik : terjadi karena dua work dipetakan ke lokasi yg sama di cache. Merupakan miss yang terjadi ketika berganti dari cache fully-associative kedirect-mapped.</p></li>
+</ul>
+
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Lukman Hakim</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-11-20T21:47:18+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-11-20T21:47:18+07:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:47 pm</span></time></time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/article/'>article</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2014/11/20/cache-memory/" title="Previous Post: Cache Memory">&laquo; Cache Memory</a></li>
+            
+            
+            <li class="next"><a href="/blog/2014/11/26/version-control/" title="Next Post: Version Control">Version Control &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2016/04/24/penalaran-deduktif/">Penalaran Deduktif</a>
+    
+    <a class="list-group-item " href="/blog/2016/03/11/angkah-langkah-meng-crimping-kabel-utp-dan-membuat-jaringan-peer-to-peer/">Langkah - Langkah Meng-crimping Kabel Utp Dan Membuat Jaringan Peer to Peer</a>
+    
+    <a class="list-group-item " href="/blog/2016/01/26/penelitian-karya-ilmiah/">Penelitian Karya Ilmiah</a>
+    
+    <a class="list-group-item " href="/blog/2016/01/26/metode-penalaran-deduktif-dan-induktif/">Metode Penalaran Deduktif Dan Induktif</a>
+    
+    <a class="list-group-item " href="/blog/2016/01/21/paradigma/">Paradigma</a>
+    
+  </div>
+</section>
+
+<section class="panel panel-default clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">GitHub Repos</h3>
+  </div>
+  <div class="list-group" id="gh_repos">
+    <p class="loading">Status updating&#8230;</p>
+  </div>
+  
+    <div class="gh-profile-link pull-right text-muted">
+      <a href="https://github.com/lukmanhakim">@lukmanhakim</a> on GitHub
+    </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'lukmanhakim',
+            count: 2,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+<section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Categories</h3>
+  </div>
+  <div class="list-group">
+    
+    
+    <a class="list-group-item " href="/blog/categories/java/index.html">
+        <span class="badge">4</span>
+        java
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/article/index.html">
+        <span class="badge">21</span>
+        article
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/git/index.html">
+        <span class="badge">2</span>
+        git
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/networking/index.html">
+        <span class="badge">1</span>
+        networking
+      </a>
+    
+  </div>
+</section>
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2016 - Lukman Hakim<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    
+
+
+
+
+
+
+
+
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Networking | Lukman's Blog]]></title>
+  <link href="http://blog.lukmanh.com/blog/categories/networking/atom.xml" rel="self"/>
+  <link href="http://blog.lukmanh.com/"/>
+  <updated>2016-05-01T23:32:29+07:00</updated>
+  <id>http://blog.lukmanh.com/</id>
+  <author>
+    <name><![CDATA[Lukman Hakim]]></name>
+    <email><![CDATA[mailto:lukmanh1995@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Langkah - Langkah Meng-crimping Kabel Utp Dan Membuat Jaringan Peer to Peer]]></title>
+    <link href="http://blog.lukmanh.com/blog/2016/03/11/angkah-langkah-meng-crimping-kabel-utp-dan-membuat-jaringan-peer-to-peer/"/>
+    <updated>2016-03-11T23:10:57+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2016/03/11/angkah-langkah-meng-crimping-kabel-utp-dan-membuat-jaringan-peer-to-peer</id>
+    <content type="html"><![CDATA[<p>Saya akan menjelaskan cara mengcrinping kabel UTP ke RJ45 (straight dan cross) dan membuat jaringan peer to peer. Sebelum kita memasang kita terlebih dahulu harus mengetahui standart pemasangannya. Standart pemasangannya ada dua, yaitu 568A dan 568B .</p>
+
+<!-- more -->
+
+
+<p>568A = PH, H, PO, B, PB, O, PC, C <br/>
+568B = PO, O, PH, B, PB, H, PC, C</p>
+
+<p>Keterangan :</p>
+
+<ul>
+<li>PO = Putih Oren</li>
+<li>O   = Oren</li>
+<li>PH = Putih Hijau</li>
+<li>H   = Hijau</li>
+<li>PB = Putih Biru</li>
+<li>B   = Biru</li>
+<li>PC = Putih Coklat</li>
+<li>C   = Coklat</li>
+</ul>
+
+
+<p>Sebelum mulai mengcrimping , kalian harus menyiapkan beberapa peralatan.</p>
+
+<ul>
+<li>Tang crimping</li>
+<li>Kabel UTP</li>
+<li>RJ45</li>
+<li>Tester</li>
+</ul>
+
+
+<p>Lalu kita bisa mulai mengcrimpig . langkah-langkah :</p>
+
+<ul>
+<li>Pertama siapkan kabel UTP-nya, potong sesuai yang kita inginkan . Setelah kita potong , kita kupas kulitnya dengan menggunakan tang crimping sampai terlihat kabel bagian dalamnya, seperti pada gambar.</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="/images/crimp-1.jpeg" title="Gambar 1" ></p>
+
+<hr />
+
+
+<ul>
+<li>Susun warna kabel sesuai urutan, pada gambar dibawah adalah susunan Straight</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="/images/crimp-2.jpg" title="Gambar 2" ></p>
+
+<hr />
+
+
+<ul>
+<li>Setelah rata lalu kita masukan ke RJ45 nya . masukan dengan perlhan-lahan dan jangan samapi ada kabel yang menyilang atau terselip. Pastikan lurus dan terpasang dengan pas.</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="/images/crimp-3.jpeg" title="Gambar 3" ></p>
+
+<hr />
+
+
+<ul>
+<li>Masukkan dan jepitkan kabel UTP dan RJ45yang telah disatukan pada lubang yang terdapat pada tang crimping.</li>
+</ul>
+
+
+<p><br /></p>
+
+<p><img class="center" src="/images/crimp-4.jpg" title="Gambar 4" ></p>
+
+<hr />
+
+
+<ul>
+<li><p>Jika satu ujung tersusun cross maka ujung yang lain harus straight, jika straight ujung yang lain dapat berupa cross ataupun straight.</p></li>
+<li><p>Colokan kedua kabel ke pc atau laptop</p></li>
+<li><p>Konfigurasi IP secara static, misal PC 1 diberi IP : 192.168.1.1 dan PC 2 diberi IP : 192.168.1.2.</p></li>
+<li><p>Lakukan test ping dengan CMD, dengan perintah ping 192.168.1.1</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

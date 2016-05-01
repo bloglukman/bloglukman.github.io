@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Java | Lukman's Blog]]></title>
+  <link href="http://blog.lukmanh.com/blog/categories/java/atom.xml" rel="self"/>
+  <link href="http://blog.lukmanh.com/"/>
+  <updated>2016-05-01T23:32:29+07:00</updated>
+  <id>http://blog.lukmanh.com/</id>
+  <author>
+    <name><![CDATA[Lukman Hakim]]></name>
+    <email><![CDATA[mailto:lukmanh1995@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Java]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/10/30/hello-java/"/>
+    <updated>2014-10-30T11:42:27+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/10/30/hello-java</id>
+    <content type="html"><![CDATA[<p>Hal pertama yang kita pelajari dalam membuat program komputer adalah menampilkan &ldquo;Hello World!&rdquo;. Pada kesempatan kali ini saya akan menjelaskan bagaimana membuat program tersebut pada Java. Sebelum memulai anda harus mengenal dulu :</p>
+
+<!-- more -->
+
+
+<ul>
+<li>Package</li>
+<li>Class</li>
+<li>Method</li>
+<li>Main Method</li>
+</ul>
+
+
+<h3>1. Package</h3>
+
+<p>Package adalah sarana/cara pengelompokkan dan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library.</p>
+
+<h3>2. Class</h3>
+
+<p>Class mendefinisikan sekumpulan objek yang memiliki kesamaan keadaan dan perilaku. Class digunakan untuk membuat objek, dan berperan sebagai tipe data dari objek. Class merupakan sarana pengkapsulan kumpulan data dan kumpulan method yang mengoperasikan kumpulan data tersebut.</p>
+
+<h3>3. Method</h3>
+
+<p>Sebuah method adalah bagian-bagian kode yang dapat dipanggil oleh program utama atau dari method lainnya untuk menjalankan fungsi yang spesifik.</p>
+
+<h3>4. Main Method</h3>
+
+<p>Method main()adalah method utama yang pasti dimiliki oleh semua program java (selain applet) dan akan dieksekusi pertama kali pada saat program dijalankan.</p>
+
+<hr />
+
+
+<p>Sekarang kita akan membuat &ldquo;Hello World!&rdquo; pada Java.</p>
+
+<p><strong>1. Buat File Java</strong></p>
+
+<p>Buat file berekstensi <code>.java</code>. Jangan ada karakter <code>spasi</code> karena File yang kita buat akan menjadi nama class. Saya beri nama File saya <code>Hello.java</code>.</p>
+
+<p><br />
+<strong>2. Mendeklarasi class</strong></p>
+
+<p>Buka file yang telah anda buat dengan text editor seperti notepad atau bila perlu notepad++ agar code program lebih mudah dibaca. dibawah ini adalah Contoh class pada java.
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;}</span>
+</span></code></pre></td></tr></table></div></figure>
+Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi nama filenya <code>Hello.java</code></p>
+
+<p><br />
+<strong>3. Membuat Method Main</strong></p>
+
+<p>Buat main metode didalam class Hello. code program menjadi seperti dibawah.
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;}</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p><br />
+<strong>4. Menampilkan &ldquo;Hello World!&rdquo;</strong></p>
+
+<p>Untuk menampilkan output dilayar shell pada java kita dapat gunakan <code>System.out.print</code>. Sehingga kode program menjadi seperti gambar dibawah.
+<figure class='code'><figcaption><span> (Hello.java)</span> <a href='/downloads/code/java/Hello.java'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
+</span><span class='line'>		<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
+</span><span class='line'>	<span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p><strong> 5. Compile dan Run</strong></p>
+
+<p>Agar program dapat dijalankan tentu kita harus mengkompilasi kode program yang telah kita buat, untuk meng-compile ikuti langkah langkah dibawah :</p>
+
+<ul>
+<li>Buka cmd / terminal</li>
+<li>pindah ke direktori tempat kita membuat file dangan perintah cd. contoh jika kita membuat di
+desktop
+<figure class='code'><figcaption><span>Linux </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ cd ~/Desktop
+</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><figcaption><span>Windows </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="go">&lt;blockquote&gt;&lt;p&gt;cd C:\Users\username\Desktop\</span>
+</span></code></pre></td></tr></table></div></figure></p></blockquote></li>
+<li>Compile kode program seperti contoh dibawah
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>javac Hello.java</span></code></pre></td></tr></table></div></figure></li>
+<li>jalankan hasil compile seperti contoh dibawah
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>java Hello</span></code></pre></td></tr></table></div></figure></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instalasi Java]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/10/23/instalasi-java/"/>
+    <updated>2014-10-23T15:48:28+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/10/23/instalasi-java</id>
+    <content type="html"><![CDATA[<p>Saya akan menjelaskan bagaimana menginstall Java pada sistem operasi Windows dan Linux. Berikut adalah langkah langkah menginstall Java.</p>
+
+<!--more-->
+
+
+<p>Untuk menginstall Java langkah umum yang kita lakukan adalah :</p>
+
+<ul>
+<li>Check sistem operasi.</li>
+<li>Check berapa bit pada sistem operasi.</li>
+<li>Download Java JDK sesuai dengan sistem operasi dan bit nya.</li>
+<li>Install Java JDK.</li>
+<li>Path Java.</li>
+<li>Check Java apakah sudah terinstall atau belum.</li>
+</ul>
+
+
+<p>Langkah pertama adalah check sistem operasi. Langkah ini tentu sudah kita lakukan, kita sudah tahu sistem operasi apa yang kita gunakan. Jadi kita mulai dengan check berapa bit sistem operasi yang kita jalankan.</p>
+
+<hr />
+
+
+<h3>Windows</h3>
+
+<ul>
+<li><p>Check berapa bit sistem operasi yang kita jalankan dengan cara</p>
+
+<ul>
+<li>Klik kanan My Computer.</li>
+<li>Klik Properties.</li>
+<li>Lihat versi (x86 = 32bit dan x64 = 64bit).</li>
+</ul>
+</li>
+<li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
+<li><p>Install Java :</p>
+
+<ul>
+<li>Klik 2x file installer yang telah kita download.</li>
+<li>Pilih lokasi penyimpanan direktori Java. Secara default di C:\Program Files</li>
+<li>Klik Install.</li>
+<li>Klik Next.</li>
+<li>Tunggu Proses Installasi.</li>
+<li>Klik Close.</li>
+</ul>
+</li>
+<li><p>Path Java dapat dilakukan dengan cara sebagai berikut:</p>
+
+<ul>
+<li>Buka Command Prompt.</li>
+<li>Ketik perintah dibawah.</li>
+</ul>
+</li>
+</ul>
+
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="go">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="go">&lt;blockquote&gt;&lt;p&gt;set JAVA_HOME=&amp;ldquo;C:\Program Files\Java\jdk1.5.0_14&amp;rdquo;</span>
+</span><span class='line'><span class="go">set PATH=%JAVA_HOME%\bin;%PATH%</span>
+</span></code></pre></td></tr></table></div></figure></p></blockquote>
+
+<ul>
+<li>Check Java yang sudah kita install dengan cara :
+
+<ul>
+<li>Buka Command Prompt.</li>
+<li>Ketik perintah dibawah.</li>
+</ul>
+</li>
+</ul>
+
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="go">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="go">&lt;blockquote&gt;&lt;p&gt;java -version</span>
+</span></code></pre></td></tr></table></div></figure></p></blockquote>
+
+<p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
+
+<hr />
+
+
+<h3>Linux</h3>
+
+<ul>
+<li>Check berapa bit sistem operasi yang kita jalankan dengan cara :
+
+<ul>
+<li>Buka Terminal</li>
+<li>Ketik perintah dibawah</li>
+</ul>
+</li>
+</ul>
+
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ file /sbin/init
+</span></code></pre></td></tr></table></div></figure></p>
+
+<ul>
+<li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
+<li><p>Install Java pada linux kita cukup mengekstrak file yang kita download lalu letakan direktori di <code>/opt/</code></p></li>
+<li><p>Path Java dapat dilakukan dapat dilakukan dengan cara :</p>
+
+<ul>
+<li>Buka Terminal</li>
+<li>Ketik perintah dibawah</li>
+</ul>
+</li>
+</ul>
+
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
+</span><span class='line'>$ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
+</span><span class='line'>$ <span class="k">source</span> /etc/profile
+</span></code></pre></td></tr></table></div></figure></p>
+
+<ul>
+<li>Check Java yang sudah kita install dengan cara :
+
+<ul>
+<li>Buka Terminal.</li>
+<li>Ketik perintah dibawah.</li>
+</ul>
+</li>
+</ul>
+
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ java -version
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
+
+<hr />
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Komponen Java]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/10/16/komponen-java/"/>
+    <updated>2014-10-16T10:29:56+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/10/16/komponen-java</id>
+    <content type="html"><![CDATA[<p>Sebelum memulai coding java tentu kita harus mengenal komponen komponen dalam java.</p>
+
+<!--more-->
+
+
+<h3>JVM (Java Virtual Machine)</h3>
+
+<p>JVM dalam bahasa indonesia berarti mesin virtual java, JVM merupakan mesin virtual yang digunakan secara khusus mengeksekusi berkas bytecode java. Menurut Sun Microsystems (sekarang merupakan bagian dari Oracle Corporation), terdapat lebih dari 4,5 miliar lebih perangkat keras di dunia yang memiliki mesin virtual java di dalamnya.</p>
+
+<p>Program yang dieksekusi oleh JVM merupakan program berbasis bytecode yang umumnya ditulis dan dikompilasi dengan menggunakan bahasa pemrograman Java, namun saat ini bisa juga berasal dari bahasa pemrograman lain seperti: Jython (Python), Groovy, JRuby (Ruby).</p>
+
+<h3>JRE (Java Runtime Environment)</h3>
+
+<p>JRE adalah sesuatu yang memungkinkan sebuah program Java dapat berjalan di mesin Anda. JRE ini mengeksekusi binary-binary dari class-class dan mengirimnya ke JVM untuk diproses lagi ke prosesor. Setiap JRE pasti memiliki sebuah JVM di dalamnya untuk melakukan pemrosesan selanjutnya.</p>
+
+<h3>JDK (Java Development Kit)</h3>
+
+<p>Seperti namanya, JDK adalah semacam kotak peralatan (kit) yang digunakan untuk development. JDK ini berguna saat Anda menulis code program. Seperti halnya JRE, JDK juga memiliki JVM di dalamnya.</p>
+
+<hr />
+
+
+<p>Biasanya Paket Tools JRE dan JDK ini berkumpul jadi satu dalam SDK ( kumpulan dari tools yang dibutuhkan untuk membuat serta menjalankan program</p>
+
+<p>Jadi kesimpulannya:
+– JRE untuk “membaca” program Java
+– JDK untuk “menulis” program Java</p>
+
+<hr />
+
+
+<p style="text-align:center;">Sumber : <a href="http://id.wikipedia.org/wiki/Java">Wikipedia</a></p>
+
+<hr />
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pengenalan Java]]></title>
+    <link href="http://blog.lukmanh.com/blog/2014/10/09/pengenalan-java/"/>
+    <updated>2014-10-09T09:31:49+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2014/10/09/pengenalan-java</id>
+    <content type="html"><![CDATA[<p>Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam. Bahasa ini awalnya dibuat oleh James Gosling saat masih bergabung di Sun Microsystems saat ini merupakan bagian dari Oracle dan dirilis tahun 1995. Bahasa ini banyak mengadopsi sintaksis yang terdapat pada C dan C++ namun dengan sintaksis model objek yang lebih sederhana serta dukungan rutin-rutin atas bawah yang minimal. Aplikasi-aplikasi berbasis java umumnya dikompilasi ke dalam p-code (bytecode) dan dapat dijalankan pada berbagai Mesin Virtual Java (JVM).</p>
+
+<!--more-->
+
+
+<p></p>
+
+<p>Java merupakan bahasa pemrograman yang bersifat umum/non-spesifik (general purpose), dan secara khusus didisain untuk memanfaatkan dependensi implementasi seminimal mungkin. Karena fungsionalitasnya yang memungkinkan aplikasi java mampu berjalan di beberapa platform sistem operasi yang berbeda, java dikenal pula dengan slogannya, &ldquo;Tulis sekali, jalankan di mana pun&rdquo;. Saat ini java merupakan bahasa pemrograman yang paling populer digunakan, dan secara luas dimanfaatkan dalam pengembangan berbagai jenis perangkat lunak aplikasi ataupun aplikasi berbasis web.</p>
+
+<hr />
+
+
+<h3>Sejarah Perkembangan</h3>
+
+<p>Bahasa pemrograman Java terlahir dari The Green Project, yang berjalan selama 18 bulan, dari awal tahun 1991 hingga musim panas 1992. Proyek tersebut belum menggunakan versi yang dinamakan Oak. Proyek ini dimotori oleh Patrick Naughton, Mike Sheridan, dan James Gosling, beserta sembilan pemrogram lainnya dari Sun Microsystems. Salah satu hasil proyek ini adalah maskot Duke yang dibuat oleh Joe Palrang.</p>
+
+<p>Pertemuan proyek berlangsung di sebuah gedung perkantoran Sand Hill Road di Menlo Park. Sekitar musim panas 1992 proyek ini ditutup dengan menghasilkan sebuah program Java Oak pertama, yang ditujukan sebagai pengendali sebuah peralatan dengan teknologi layar sentuh (touch screen), seperti pada PDA sekarang ini. Teknologi baru ini dinamai &ldquo;*7&rdquo; (Star Seven).</p>
+
+<p>Setelah era Star Seven selesai, sebuah anak perusahaan Tv kabel tertarik ditambah beberapa orang dari proyek The Green Project. Mereka memusatkan kegiatannya pada sebuah ruangan kantor di 100 Hamilton Avenue, Palo Alto.</p>
+
+<p>Perusahaan baru ini bertambah maju: jumlah karyawan meningkat dalam waktu singkat dari 13 menjadi 70 orang. Pada rentang waktu ini juga ditetapkan pemakaian Internet sebagai medium yang menjembatani kerja dan ide di antara mereka. Pada awal tahun 1990-an, Internet masih merupakan rintisan, yang dipakai hanya di kalangan akademisi dan militer.</p>
+
+<p>Mereka menjadikan perambah (browser) Mosaic sebagai landasan awal untuk membuat perambah Java pertama yang dinamai Web Runner, terinsipirasi dari film 1980-an, Blade Runner. Pada perkembangan rilis pertama, Web Runner berganti nama menjadi Hot Java.</p>
+
+<p>Pada sekitar bulan Maret 1995, untuk pertama kali kode sumber Java versi 1.0a2 dibuka. Kesuksesan mereka diikuti dengan untuk pemberitaan pertama kali pada surat kabar San Jose Mercury News pada tanggal 23 Mei 1995.</p>
+
+<p>Sayang terjadi perpecahan di antara mereka suatu hari pada pukul 04.00 di sebuah ruangan hotel Sheraton Palace. Tiga dari pimpinan utama proyek, Eric Schmidt dan George Paolini dari Sun Microsystems bersama Marc Andreessen, membentuk Netscape.</p>
+
+<p>Nama Oak, diambil dari pohon oak yang tumbuh di depan jendela ruangan kerja &ldquo;Bapak Java&rdquo;, James Gosling. Nama Oak ini tidak dipakai untuk versi release Java karena sebuah perangkat lunak lain sudah terdaftar dengan merek dagang tersebut, sehingga diambil nama penggantinya menjadi &ldquo;Java&rdquo;. Nama ini diambil dari kopi murni yang digiling langsung dari biji (kopi tubruk) kesukaan Gosling. Konon kopi ini berasal dari Pulau Jawa. Jadi nama bahasa pemrograman Java tidak lain berasal dari kata Jawa (bahasa Inggris untuk Jawa adalah Java).</p>
+
+<hr />
+
+
+<h3>Versi</h3>
+
+<p>Versi awal Java pada tahun 1996 sudah merupakan versi release sehingga dinamakan Java Versi 1.0. Java versi ini menyertakan banyak paket standar awal yang terus dikembangkan pada versi selanjutnya:</p>
+
+<p><strong>java.lang</strong></p>
+
+<p>Peruntukan kelas elemen-elemen dasar.</p>
+
+<p><strong>java.io</strong></p>
+
+<p>Peruntukan kelas input dan output, termasuk penggunaan berkas.</p>
+
+<p><strong>java.util</strong></p>
+
+<p>Peruntukan kelas pelengkap seperti kelas struktur data dan kelas kelas penanggalan.</p>
+
+<p><strong>java.net</strong></p>
+
+<p>Peruntukan kelas TCP/IP, yang memungkinkan berkomunikasi dengan komputer lain menggunakan jaringan TCP/IP.</p>
+
+<p><strong>java.awt</strong></p>
+
+<p>Kelas dasar untuk aplikasi antarmuka dengan pengguna (GUI)</p>
+
+<p><strong>java.applet</strong></p>
+
+<p>Kelas dasar aplikasi antar muka untuk diterapkan pada penjelajah web.</p>
+
+<hr />
+
+
+<h3>Kelebihan</h3>
+
+<ul>
+<li><strong>Multiplatform</strong></li>
+</ul>
+
+
+<p>Kelebihan utama dari Java ialah dapat dijalankan di beberapa platform / sistem operasi komputer, sesuai dengan prinsip tulis sekali, jalankan di mana saja. Dengan kelebihan ini pemrogram cukup menulis sebuah program Java dan dikompilasi (diubah, dari bahasa yang dimengerti manusia menjadi bahasa mesin / bytecode) sekali lalu hasilnya dapat dijalankan di atas beberapa platform tanpa perubahan. Kelebihan ini memungkinkan sebuah program berbasis java dikerjakan diatas operating system Linux tetapi dijalankan dengan baik di atas Microsoft Windows. Platform yang didukung sampai saat ini adalah Microsoft Windows, Linux, Mac OS dan Sun Solaris. Penyebabnya adalah setiap sistem operasi menggunakan programnya sendiri-sendiri (yang dapat diunduh dari situs Java) untuk meninterpretasikan bytecode tersebut.</p>
+
+<ul>
+<li><strong>OOP (Object Oriented Programming - Pemrogram Berorientasi Objek)</strong></li>
+</ul>
+
+
+<p>Perpustakaan Kelas Yang Lengkap, Java terkenal dengan kelengkapan library/perpustakaan (kumpulan program program yang disertakan dalam pemrograman java) yang sangat memudahkan dalam penggunaan oleh para pemrogram untuk membangun aplikasinya. Kelengkapan perpustakaan ini ditambah dengan keberadaan komunitas Java yang besar yang terus menerus membuat perpustakaan-perpustakaan baru untuk melingkupi seluruh kebutuhan pembangunan aplikasi.</p>
+
+<ul>
+<li><strong>Bergaya C++</strong></li>
+</ul>
+
+
+<p>Memiliki sintaks seperti bahasa pemrograman C++ sehingga menarik banyak pemrogram C++ untuk pindah ke Java. Saat ini pengguna Java sangat banyak, sebagian besar adalah pemrogram C++ yang pindah ke Java. Universitas-universitas di Amerika Serikat juga mulai berpindah dengan mengajarkan Java kepada murid-murid yang baru karena lebih mudah dipahami oleh murid dan dapat berguna juga bagi mereka yang bukan mengambil jurusan komputer.</p>
+
+<ul>
+<li><strong>Pengumpulan sampah otomatis</strong></li>
+</ul>
+
+
+<p>Memiliki fasilitas pengaturan penggunaan memori sehingga para pemrogram tidak perlu melakukan pengaturan memori secara langsung (seperti halnya dalam bahasa C++ yang dipakai secara luas).</p>
+
+<hr />
+
+
+<h3>Kekurangan</h3>
+
+<p><br />
+<strong>Tulis sekali, jalankan di mana saja</strong></p>
+
+<p>Masih ada beberapa hal yang tidak kompatibel antara platform satu dengan platform lain. Untuk J2SE, misalnya SWT-AWT bridge yang sampai sekarang tidak berfungsi pada Mac OS X.</p>
+
+<p><strong>Mudah didekompilasi</strong></p>
+
+<p>Dekompilasi adalah proses membalikkan dari kode jadi menjadi kode sumber. Ini dimungkinkan karena kode jadi Java merupakan bytecode yang menyimpan banyak atribut bahasa tingkat tinggi, seperti nama-nama kelas, metode, dan tipe data. Hal yang sama juga terjadi pada Microsoft .NET Platform. Dengan demikian, algoritma yang digunakan program akan lebih sulit disembunyikan dan mudah dibajak/direverse-engineer.</p>
+
+<p><strong>Penggunaan memori yang banyak</strong></p>
+
+<p>Penggunaan memori untuk program berbasis Java jauh lebih besar daripada bahasa tingkat tinggi generasi sebelumnya seperti C/C++ dan Pascal (lebih spesifik lagi, Delphi dan Object Pascal). Biasanya ini bukan merupakan masalah bagi pihak yang menggunakan teknologi terbaru (karena trend memori terpasang makin murah), tetapi menjadi masalah bagi mereka yang masih harus berkutat dengan mesin komputer berumur lebih dari 4 tahun.</p>
+
+<hr />
+
+
+<p style="text-align:center;">Sumber : <a href="http://id.wikipedia.org/wiki/Java">Wikipedia</a></p>
+
+<hr />
+
+]]></content>
+  </entry>
+  
+</feed>

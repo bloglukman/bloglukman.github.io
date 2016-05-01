@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cache Memory - Lukman&#8217;s Blog</title>
+  <meta name="author" content="Lukman Hakim">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.lukmanh.com/blog/2014/11/20/cache-memory">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="Lukman's Blog" type="application/atom+xml">
+
+  <!-- http://opengraphprotocol.org/ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://blog.lukmanh.com/blog/2014/11/20/cache-memory">
+  <meta property="og:title" content="Cache Memory - Lukman's Blog">
+  
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+
+<link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Lukman&#8217;s Blog</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a rel="index" href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+                <li >
+                    <a href="/blog/about">About</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="subscribe-email" href="mailto:lukmanh1995@gmail.com" title="subscribe via email">
+                        <span class="visible-xs">Email</span>
+                        <img class="hidden-xs" src="/images/email.png" alt="Email">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:blog.lukmanh.com">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="Lukman's Blog" />
+    
+    <meta itemprop="url" content="http://blog.lukmanh.com" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-11-20T14:20:24+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-11-20T14:20:24+07:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>2:20 pm</span></time></time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        Cache Memory
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix" itemprop="articleBody description"><p>Cache memory merupakan lokasi data sementara antara prosesor dengan main memory. Penempatan cache memory ditujukan untuk mengurangi gap antara kecepatan prosesor dengan kecepatan main memory. Gambar 1 di bawah ini menunjukkan posisi cache memory yang diletakkan antara prosesor (CPU) dengan main memory. Sedangkan Gambar 2 memperlihatkan sistem interkoneksi untuk cache memory.</p>
+
+<!-- more -->
+
+
+<p><img src="/images/1.png" title="Gambar 1" ></p>
+
+<p style="text-align:center;"><strong> Gambar 1 </strong></p>
+
+<hr />
+
+
+<p><img class="center" src="/images/2.png" title="Gambar 2" ></p>
+
+<p style="text-align:center;"><strong> Gambar 2 </strong></p>
+
+<p>Cache berasal dari kata cash. Dari istilah tersebut cache adalah tempat menyembunyikan atau tempat menyimpan sementara. Sesuai definisi tersebut cache memory adalah tempat menympan data sementara. Cara ini dimaksudkan untuk meningkatkan transfer data dengan menyimpan data yang pernah diakses pada cache memory tersebut, sehingga apabila ada data yang ingin diakses adalah data yang sama maka maka akses akan dapat dilakukan lebih cepat. Cache memory ini adalah memori tipe SDRAM yang memiliki kapasitas terbatas namun memiliki kecepatan yang sangat tinggi dan harga yang lebih mahal dari memori utama. Cache memory ini terletak antara register dan RAM (memori utama) sehingga pemrosesan data tidak langsung mengacu pada memori utama.</p>
+
+<p>Karakteristik cache memory adalah sebagai berikut:</p>
+
+<ul>
+<li><p>Kapasitas relatif lebih kecil dari main memory, tetapi memiliki kecepatan
+yang relativ lebih tinggi dibanding main memory;</p></li>
+<li><p>Cache memory merupakan suatu memori buffer (salinan data) bagi
+memori utama;</p></li>
+<li><p>Meskipun cache menggunakan informasi yang tersimpan dalam memori
+utama, tetapi ia tidak berhadapan secara langsung dengan memori utama;</p></li>
+<li><p>Word yang disimpan didalam cache memory adalah word yang diambil dari
+main memory, yang dikerjakan sesuai perintah CPU.</p></li>
+</ul>
+
+
+<hr />
+
+
+<h3>Level Cache Memory</h3>
+
+<p>Hingga saat ini, cache memory terbagi atas tiga level yaitu L1, L2 dan L3. Cache memory memori level 1 (L1) adalah cache memory yang terletak dalam prosesor (internal cache). Cache memory ini memiliki kecepatan akses paling tinggi dan harganya paling mahal. Ukuran memori berkembang mulai dari 8KB, 64KB dan 128KB. Cache memory level 2 (L2) memiliki kapasitas yang lebih besar yaitu berkisar antara 256KB sampai dengan 2MB. Namun, cache memory L2 ini memiliki kecepatan yang lebih rendah dari cache memory L1. Cache memory L2 terletak terpisah dengan prosesor atau disebut dengan external cache.Sedangkan cache memory level 3 hanya dimiliki oleh prosesor yang memiliki unit lebih dari satu misalnya dualcore dan quadcore. Fungsinya adalah untuk mengontrol data yang masuk dari tembolok L2 dari masing-masing inti prosesor.</p>
+
+<p>Level 2 atau L2 cache merupakan bagian dari strategi penyimpanan multi level untuk meningkatkan performa komputer. Terdapat tiga level cache yang digunakan pada komputer, yaitu L1, L2 dan L3 cache. Tiap-tiap cache tersebut menjembatani jarak (gap) diantara processor yang sangat cepat, dengan memori RAM (Random Access Memory) yang jauh lebih lambat.</p>
+
+<p>Sementara desainnya terus mengalami perubahan, L1 cache biasanya telah terintegrasi (built in) ke dalam processor, sementara L2 cache biasanya terintegrasi pada motherboard (bersamaan dengan L2 cache). Namun, beberapa processor kini menggabungkan L2 cache serta L1 cache, dan bahkan beberapa diantaranya juga menggungkan L3 cache. Kecepatan yang paling tinggi terdapat pada L1 cache, kemudian menurun pada L2 dan L3 cache. Namun kebalikannya, semakin besar angka cache, maka semakin besar pula kapasitas penyimpanan datanya.</p>
+
+<p><img class="center" src="/images/3.png" title="Gambar 3" ></p>
+
+<p style="text-align:center;"><strong> Gambar 3 </strong></p>
+
+<p>Tugas dari cache processor adalah untuk mengantisipasi data request, sehingga ketika pengguna mengakses sebuah program yang sering digunakan, sebagai contohnya, instruksi-instruksi yang dibutuhkan untuk menjalankan program tersebut telah siap digunakan, disimpan pada cache. Ketika hal ini terjadi, CPU dapat memproses request tanpa adanya jeda (delay), sehingga dapat meningkatkan performa komputer secara drastis.</p>
+
+<p>CPU pertama-tama akan memeriksa L1 cache, diikuti dengan L2 dan L3 cache. Jika processor telah menemukan bit data yang dibutuhkan, maka disebut dengan cache hit. Namun jika cache tidak menyediakan bit data yang dibutuhkan, processor mendapatkan sebuah cache miss, dan data perlu ditarik dari RAM yang lebih lambat atau hard disk yang juga lebih lambat.</p>
+
+<hr />
+
+
+<h3>Kapasitas Cache</h3>
+
+<p>Menentukan ukuran cache memory sangatlah penting untuk mendongkrak kinerja komputer. Dari segi harga cache memory sangatlah mahal tidak seperti memori utama. Semakin besar kapasitas cache tidak berarti semakin cepat prosesnya, dengan ukuran besar akan terlalu banyak gate pengalamatannya sehingga akan
+memperlambat proses.</p>
+
+<p>Kita bisa melihat beberapa merek prosesor di pasaran beberapa waktu lalu. AMD mengeluarkan prosesor K5 dan K6 dengan cache memory yang besar (1MB) tetapi kinerjanya tidak bagus. Kemudian Intel pernah mengeluarkan prosesor tanpa cache memory untuk alasan harga yang murah, yaitu seri Intel Celeron pada tahun 1998-an hasil kinerjanya sangat buruk terutama untuk operasi data besar, floating point, 3D.</p>
+
+<p>Intel Celeron versi berikutnya sudah ditambah cache memory sekitar 128KB.
+Lalu berapa idealnya kapasitas cache memory? Sejumlah penelitian telah
+menganjurkan bahwa ukuran cache antara 1KB dan 512KB akan lebih optimum.</p>
+
+<hr />
+
+
+<h3>Ukuran Blok</h3>
+
+<p>Elemen rancangan yang harus diperhatikan lagi adalah ukuran blok. Telah dijelaskan adanya sifat lokalitas referensi maka nilai ukuran blok sangatlah penting. Apabila blok berukuran besar ditransfer ke cache akan menyebabkan hit ratio mengalami penurunan karena banyaknya data yang dikirim disekitar referensi. Tetapi apabila terlalu kecil, dimungkinkan memori yang akan dibutuhkan CPU tidak tercakup.</p>
+
+<p>Apabila blok berukuran besar ditransfer ke cache, maka akan terjadi :</p>
+
+<ol>
+<li><p>Blok-blok yang berukuran lebih besar mengurangi jumlah blok yang menempati cache. Karena isi cache sebelumnya akan ditindih.</p></li>
+<li><p>Dengan meningkatnya ukuran blok maka jarak setiap word tambahan menjadi lebih jauh dari word yang diminta, sehingga menjadi lebih kecil kemungkinannya digunakan cepat.</p></li>
+</ol>
+
+
+<p>Hubungan antara ukuran blok dan hit ratio sangat rumit untuk dirumuskan,
+tergantung pada karakteristik lokalitas programnya dan tidak terdapat nilai optimum
+yang pasti telah ditemukan. Ukuran antara 4 hingga 8 satuan yang dapat dialamati
+(word atau byte) cukup beralasan untuk mendekati nilai optimum.</p>
+
+<hr />
+
+
+<p style="text-align:center;"><a href="http://files.yogaprihastomo.com/Kuliah/Strata%20Dua/Semester%201/Tugas%20Arsitektur%20dan%20Organisasi%20Komputer%20-%20Cache%20Memory.pdf">Sumber</a></p>
+
+<hr />
+
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Lukman Hakim</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-11-20T14:20:24+07:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2014-11-20T14:20:24+07:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>2:20 pm</span></time></time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/article/'>article</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2014/11/13/pengaruh-sosial-dan-budaya-terhadap-pemasaran-global/" title="Previous Post: Pengaruh Sosial dan Budaya Terhadap Pemasaran Global">&laquo; Pengaruh Sosial dan Budaya Terhadap Pemasaran Global</a></li>
+            
+            
+            <li class="next"><a href="/blog/2014/11/20/mapping-cache-memory/" title="Next Post: Mapping Cache Memory">Mapping Cache Memory &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2016/04/24/penalaran-deduktif/">Penalaran Deduktif</a>
+    
+    <a class="list-group-item " href="/blog/2016/03/11/angkah-langkah-meng-crimping-kabel-utp-dan-membuat-jaringan-peer-to-peer/">Langkah - Langkah Meng-crimping Kabel Utp Dan Membuat Jaringan Peer to Peer</a>
+    
+    <a class="list-group-item " href="/blog/2016/01/26/penelitian-karya-ilmiah/">Penelitian Karya Ilmiah</a>
+    
+    <a class="list-group-item " href="/blog/2016/01/26/metode-penalaran-deduktif-dan-induktif/">Metode Penalaran Deduktif Dan Induktif</a>
+    
+    <a class="list-group-item " href="/blog/2016/01/21/paradigma/">Paradigma</a>
+    
+  </div>
+</section>
+
+<section class="panel panel-default clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">GitHub Repos</h3>
+  </div>
+  <div class="list-group" id="gh_repos">
+    <p class="loading">Status updating&#8230;</p>
+  </div>
+  
+    <div class="gh-profile-link pull-right text-muted">
+      <a href="https://github.com/lukmanhakim">@lukmanhakim</a> on GitHub
+    </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'lukmanhakim',
+            count: 2,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+<section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Categories</h3>
+  </div>
+  <div class="list-group">
+    
+    
+    <a class="list-group-item " href="/blog/categories/java/index.html">
+        <span class="badge">4</span>
+        java
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/article/index.html">
+        <span class="badge">21</span>
+        article
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/git/index.html">
+        <span class="badge">2</span>
+        git
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/networking/index.html">
+        <span class="badge">1</span>
+        networking
+      </a>
+    
+  </div>
+</section>
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2016 - Lukman Hakim<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    
+
+
+
+
+
+
+
+
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+  </body>
+</html>
