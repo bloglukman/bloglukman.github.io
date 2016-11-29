@@ -4,7 +4,7 @@
   <title><![CDATA[Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2016-10-04T10:40:58+07:00</updated>
+  <updated>2016-11-29T14:59:33+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,110 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Arsitektur Telematika]]></title>
+    <link href="http://blog.lukmanh.com/blog/2016/11/29/arsitektur-telematika/"/>
+    <updated>2016-11-29T14:34:47+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2016/11/29/arsitektur-telematika</id>
+    <content type="html"><![CDATA[<h3>1. Pengertian</h3>
+
+<p>Arsitektur Telematika adalah sebuah aplikasi yang secara logic berada diantara lapisan aplikasi (application layer dan lapisan data dari sebuah arsitektur layer – layer TCP/IP) yang dapat meningkatkan hubungan jaringan komunikasi dengan teknologi informasi.</p>
+
+<!-- more -->
+
+
+
+
+<hr />
+
+
+<h3>2. Elemen Utama Arsitektur</h3>
+
+<ol>
+<li><p>Arsitektur sistem pemrosesan, menentukan standar teknis untuk hardware, lingkungan sistem operasi, dan software aplikasi, yang diperlukan untuk menangani persyaratan pemrosesan informasi perusahaan dalam spektrum yang lengkap. Standar merupakan format, prosedur, dan antar muka, yang menjamin bahwa perlengkapan dan software dari sekumpulan penyalur akan bekerja sama.</p></li>
+<li><p>Arsitektur telekomunikasi dan jaringan, menentukan kaitan di antara fasilitas komunikasi perusahaan, yang melaluinya informasi bergerak dalam organisasi dan ke peserta dari organisasi lain, dan hal ini juga tergantung dari standar yang berlaku.</p></li>
+<li><p>Arsitektur data, sejauh ini merupakan yang paling rumit diantara ketiga arsitektur di atas, dan termasuk yang relatif sulit dalam implementasinya, menentukan organisasi data untuk tujuan referensi silang dan penyesuaian ulang, serta untuk penciptaan sumber informasi yang dapat diakses oleh aplikasi bisnis dalam lingkup luas.</p></li>
+</ol>
+
+
+<hr />
+
+
+<h3>3. Arsitektur Client - Server</h3>
+
+<p>Karena keterbatasan sistem file sharing, dikembangkanlah Arsitektur Client-Server. Arsitektur Client-Server merupakan sebuah aplikasi yang bertugas untuk membagi pekerjaan antara server(penyedia layanan) dan client. Client dan server terkadang menggunakan jaringan komputer pada hardware yang terpisah. Sedangkan server dapat menjalankan satu atau lebih program untuk memberikan data-data pada client. Arsitektur client – server telematika terdiri dari 2 buah arsitektur yakni, arsitektur sisi client dan sisi servernya.</p>
+
+<h4><strong>Arsitektur Client Side</strong></h4>
+
+<p>Arsitektur dari sisi klien mengarah pada  pelaksanaan data  pada browser sisi koneksi HTTP. Contohnya adalah JavaScript dari sisi eksekusi client dan cookie dari sisi penyimpanan pada client. Beberapa ciri khas dari sisi client, sebagai berikut :</p>
+
+<ul>
+<li>Selalu memulai permintaan ke server.</li>
+<li>Menunggu dan menerima balasan dari server.</li>
+<li>Biasanya terhubung ke sejumlah kecil dari server pada satu waktu.</li>
+<li>Biasanya berinteraksi langsung dengan pengguna akhir dengan menggunakan antarmuka pengguna seperti antarmuka pengguna grafis. Khusus jenis klien mencakup: web browser, e-mail klien, dan online chat klien.</li>
+</ul>
+
+
+<h4><strong>Arsitektur Server Side</strong></h4>
+
+<p>Pada sisi server, terdapat server Web khusus yang mengeksekusi perintah dengan menggunakan metode HTTP. Contoh dari sisi server adalah penggunaan CGI script yang tertanam di halaman HTML, hal tersebut dapat memicu terjadinya perintah untuk mengeksekusi. Beberapa ciri khas dari sisi server, sebagai berikut :</p>
+
+<ul>
+<li>Menunggu permintaan dari salah satu client.</li>
+<li>Melayani permintaan klien dan menjawab sesuai data yang diminta oleh client.</li>
+<li>Suatu server dapat berkomunikasi dengan server lain untuk melayani permintaan client.</li>
+<li>Jenis-jenisnya : web server, FTP server, database server, E-mail server, file server, print server.</li>
+<li>Client dan server dikembangkan oleh berbagai perusahaan software besar seperti Lotus, Microsoft, Novell, Baan, Informix, Oracle, PeopleSoft, SAP, Sun, dan Sybase. Perusahaan-perusahaan tersebut telah menjadi perusahaan komputer yang stabil dan besar pada era ini.</li>
+</ul>
+
+
+<hr />
+
+
+<h3>4. Kolaborasi Client Side dengan Server Side</h3>
+
+<p>Berikut ini adalah penjelasan mengenai beberapa kolaborasi arsitektur sisi client dan sisi server :</p>
+
+<h4><strong>One-Tier / Single-Tier / Stand Alone</strong></h4>
+
+<p>Pada Arsitektur Single-Tier, semua komponen produksi dari sistem dijalankan pada komputer yang sama. Beberapa sifat dari Single-Tier antara lain :</p>
+
+<ul>
+<li>Sederhana dan alternatifnya sangat mahal.</li>
+<li>Membutuhkan sedikit perlengkapan untuk dibeli dan dipelihara.</li>
+<li>Kelemahan pada keamanan dari arsitektur ini yaitu rendahnya dan kurangnya skalabilitas.</li>
+</ul>
+
+
+<p><img class="center" src="http://blog.lukmanh.com/images/one-tier.jpg" title="Gambar One-Tier" ></p>
+
+<h4><strong>Two-Tier</strong></h4>
+
+<p>Pada Arsitektur Two-tier, antarmuka pengguna ditempatkan di lingkungan desktop dan sistem manajemen database. Biasanya dalam sebuah server, yang lebih kuat merupakan mesin yang menyediakan layanan bagi banyak klien. Pengolahan informasi dibagi antara sistem interface lingkungan dan lingkungan server manajemen database. Arsitektur two-tier lebih aman dan terukur daripada pendekatan single-tier. Mempunyai database pada komputer yang terpisah meningkatkan kinerja keseluruhan situs. Kelemahannya adalah biaya yang mahal dan arsitektur yang kompleks.</p>
+
+<p><img class="center" src="http://blog.lukmanh.com/images/two-tier.jpg" title="Gambar Two-Tier" ></p>
+
+<h4><strong>Three-Tier</strong></h4>
+
+<p>Model three-tier atau multi-tier dikembangkan untuk menjawab keterbatasan pada arsitektur two-tier. Konsep model three-tier adalah model yang membagi fungsionalitas ke dalam lapisan-lapisan, aplikasi-aplikasi mendapatkan skalabilitas, keterbaharuan, dan keamanan. Three-tier client dan server arsitektur digunakan untuk meningkatkan performa untuk jumlah pengguna besar dan juga meningkatkan fleksibilitas ketika dibandingkan dengan pendekatan dua tingkat. Kekurangannya adalah pengembangan lebih sulit daripada pengembangan pada arsitektur dua lapis.</p>
+
+<p>Pada tiga tingkatan arsitektur, sebuah middleware digunakan diantara sistem user interface lingkungan klien dan server manajemen database lingkungan. Middleware ini diimplementasikan dalam berbagai cara seperti pengolahan transaksi monitor, pesan server atau aplikasi server.</p>
+
+<p><img class="center" src="http://blog.lukmanh.com/images/three-tier.jpg" title="Gambar Three-Tier" ></p>
+
+<p><br/></p>
+
+<hr />
+
+
+<p style="text-align:center;">Sumber : <a href="https://id.wikipedia.org/wiki/Telematika">Wikipedia</a>, <a href="https://nidafe.wordpress.com/2015/10/12/arsitektur-telematika/">Blog 1</a>, <a href="https://bluewarrior.wordpress.com/2009/11/27/arsitektur-telematika/">Blog 2</a></p>
+
+<hr />
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Telematika]]></title>
@@ -1436,80 +1540,6 @@ Seorang produsen mempunyai satu masalah pokok, yaitu bagaimana dengan sumber day
 
 
 <p>Sejak kelahirannya pada tahun 2005, Git telah berkembang dan semakin mudah digunakan serta hingga saat ini masih mempertahankan kualitasnya tersebut. Git luar biasa cepat, sangat efisien dalam proyek besar, dan memiliki sistem pencabangan yang luar biasa untuk pengembangan non-linear.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Version Control]]></title>
-    <link href="http://blog.lukmanh.com/blog/2014/11/26/version-control/"/>
-    <updated>2014-11-26T10:05:05+07:00</updated>
-    <id>http://blog.lukmanh.com/blog/2014/11/26/version-control</id>
-    <content type="html"><![CDATA[<p>Apa itu version control, dan kenapa anda harus peduli ? Version control adalah sebuah sistem yang mencatat setiap perubahan terhadap sebuah berkas atau kumpulan berkas sehingga pada suatu saat anda dapat kembali kepada salah satu versi dari berkas tersebut. Sebagai contoh dalam buku ini anda akan menggunakan kode sumber perangkat lunak sebagai berkas yang akan dilakukan version controlling, meskipun pada kenyataannya anda dapat melakukan ini pada hampir semua tipe berkas di komputer.</p>
-
-<!-- more -->
-
-
-<p>Jika anda adalah seorang desainer grafis atau desainer web dan anda ingin menyimpan setiap versi dari gambar atau layout yang anda buat (kemungkinan besar anda pasti ingin melakukannya), maka Version Control System (VCS) merupakan sebuah solusi bijak untuk digunakan. Sistem ini memungkinkan anda untuk mengembalikan berkas anda pada kondisi/keadaan sebelumnya, mengembalikan seluruh proyek pada keadaan sebelumnya, membandingkan perubahan setiap saat, melihat siapa yang terakhir melakukan perubahan terbaru pada suatu objek sehingga berpotensi menimbulkan masalah, siapa yang menerbitkan isu, dan lainnya. Dengan menggunakan VCS dapat berarti jika anda telah mengacaukan atau kehilangan berkas, anda dapat dengan mudah mengembalikannya. Ditambah lagi, anda mendapatkan semua ini dengan overhead yang sangat sedikit.</p>
-
-<h3>Version Control System Local</h3>
-
-<p>Kebanyakan orang melakukan pengontrolan versi dengan cara menyalin berkas-berkas pada direktori lain (mungkin dengan memberikan penanggalan pada direktori tersebut, jika mereka rajin). Metode seperti ini sangat umum karena sangat sederhana, namun cenderung rawan terhadap kesalahan. Anda akan sangat mudah lupa dimana direktori anda sedang berada, selain itu dapat pula terjadi ketidak sengajaan penulisan pada berkas yang salah atau menyalin pada berkas yang bukan anda maksudkan.</p>
-
-<p>Untuk mengatasi permasalahan ini, para programmer mengembangkan berbagai VCS lokal yang memiliki sebuah basis data sederhana untuk menyimpan semua perubahan pada berkas yang berada dalam cakupan revision control (Lihat Gambar 1-1).</p>
-
-<hr />
-
-
-<p><img class="center" src="http://blog.lukmanh.com/images/version-control-1.png" title="Gambar 1-1" ></p>
-
-<p style="text-align:center;"><strong> Gambar 1-1. Diagram Version Control Lokal</strong></p>
-
-<hr />
-
-
-<p>Salah satu perkakas VCS yang populer adalah rcs, kakas ini masih didistribusikan dengan berbagai komputer pada masa kini. Bahkan sistem operasi Mac OS X menyertakan rcs ketika menginstal Developer Tools. Kakas ini pada dasarnya bekerja dengan cara menyimpan kumpulan patch dari satu perubahan ke perubahan lainnya dalam format khusus pada disk; ini kemudian dapat digunakan untuk menciptakan kembali wujud/keadaan suatu berkas pada suatu saat dengan cara menggunakan patch yang berkesesuaian dengan berkas dan waktu yang diinginkan.</p>
-
-<h3>Version Control Systems Terpusat</h3>
-
-<p>Permasalahan berikutnya yang dihadapi adalah para pengembang perlu melakukan kolaborasi dengan pengembang pada sistem lainnya. Untuk mengatasi permasalahan ini maka dibangunlah Centralized Version Control Systems (CVCSs). Sistem ini, diantaranya CVS, Subversion, dan Perforce, memiliki sebuah server untuk menyimpan setiap versi berkas, dan beberapa klien yang dapat melakukan checkout berkas dari server pusat. Untuk beberapa tahun, sistem seperti ini menjadi standard untuk version control (lihat Gambar 1-2).</p>
-
-<hr />
-
-
-<p><img class="center" src="http://blog.lukmanh.com/images/version-control-2.png" title="Gambar 1-2" ></p>
-
-<p style="text-align:center;"><strong> Gambar 1-2. Diagram Version Control Terpusat </strong></p>
-
-<hr />
-
-
-<p>Sistem seperti ini memiliki beberapa kelebihan, terutama jika dibandingkan dengan VCS lokal. Misalnya, setiap orang pada tingkat tertentu mengetahui apa yang orang lain lakukan pada proyek. Administrator memiliki kendali yang mantap atas siapa yang dapat melakukan apa; dan adalah jauh lebih mudah untuk mengelola sebuah CVCS dibandingkan menangani database lokal pada setiap client.</p>
-
-<p>Walau demikian, sistem dengan tatanan seperti ini memiliki kelemahan serius. Kelemahan nyata yang direpresesntasikan oleh sistem dengan server terpusat. Jika server mati untuk beberapa jam, maka tidak ada seorangpun yang bisa berkolaborasi atau menyimpan perubahan terhadap apa yang mereka telah kerjakan. Jika harddisk yang menyimpan basisdata mengalami kerusakan, dan salinan yang beran belum tersimpan, anda akan kehilangan setiap perubahan dari proyek kecuali snapshot yang dimiliki oleh setiap kolaborator pada komputernya masing-masing. VCS lokal juga mengalami nasib yang sama jika anda menyimpan seluruh history perubahan proyek pada satu tempat, anda mempunyai resiko kehilangan semuanya.</p>
-
-<h3>Version Control System Terdistribusi</h3>
-
-<p>Inilah saatnya bagi Distributed Version Control Systems untuk mengambil tempat. dalam sebuah DVCS (seperti Git, Mercurial, Bazaar atau Darcs), klien tidak hanya melakukan checkout untuk snapshot terakhir setiap berkas, namun mereka (klien) memiliki salinan penuh dari repositori tersebut. Jadi, jika server mati, dan sistem berkolaborasi melalui server tersebut, maka klien manapun dapat mengirimkan salinan repositori tersebut kembali ke server. Setiap checkout pada DVCS merupakan sebuah backup dari keseluruhan data (lihat Gambar 1-3).</p>
-
-<hr />
-
-
-<p><img class="center" src="http://blog.lukmanh.com/images/version-control-3.png" title="Gambar 1-3" ></p>
-
-<p style="text-align:center;"><strong> Gambar 1-3. Diagram Version Control Terdistribusi </strong></p>
-
-<hr />
-
-
-<p>Lebih jauh lagi, kebanyakan sistem seperti ini mampu menangani sejumlah remote repository dengan baik, jadi anda dapat melakukan kolaborasi dengan berbagai kelompok kolaborator dalam berbagai cara secara bersama-sama pada suatu proyek. Hal ini memungkinkan anda untuk menyusun beberapa jenis alur kerja yang tidak mungkin dilakukan pada sistem terpusat, seperti hierarchical model.</p>
-
-<hr />
-
-
-<p style="text-align:center;">Sumber : <a href="http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Git-Scm</a></p>
-
-<hr />
-
 ]]></content>
   </entry>
   
