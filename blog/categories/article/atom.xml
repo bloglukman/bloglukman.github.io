@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Article | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/article/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2017-03-18T13:12:46+07:00</updated>
+  <updated>2017-03-31T10:00:51+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -12,6 +12,196 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Modus - Modus Kejahatan Dalam Bidang Teknologi Informasi & IT Forensics]]></title>
+    <link href="http://blog.lukmanh.com/blog/2017/03/31/modus-modus-kejahatan-dalam-bidang-teknologi-informasi/"/>
+    <updated>2017-03-31T09:22:17+07:00</updated>
+    <id>http://blog.lukmanh.com/blog/2017/03/31/modus-modus-kejahatan-dalam-bidang-teknologi-informasi</id>
+    <content type="html"><![CDATA[<p>Kebutuhan akan teknologi Jaringan Komputer semakin meningkat. Selain sebagai media penyedia informasi, melalui Internet pula kegiatan komunitas komersial menjadi bagian terbesar, dan terpesat pertumbuhannya serta menembus berbagai batas negara. Bahkan melalui jaringan ini kegiatan pasar di dunia bisa diketahui selama 24 jam. Melalui dunia internet atau disebut juga cyberspace, apapun dapat dilakukan. Segi positif dari dunia maya ini tentu saja menambah trend perkembangan teknologi dunia dengan segala bentuk kreatifitas manusia. Namun dampak negatif pun tidak bisa dihindari. Tatkala pornografi marak di media Internet, masyarakat pun tak bisa berbuat banyak.</p>
+
+<!-- more -->
+
+
+<p>Seiring dengan perkembangan teknologi Internet, menyebabkan munculnya kejahatan yang disebut dengan “CyberCrime” atau kejahatan melalui jaringan Internet. Munculnya beberapa kasus “CyberCrime” di Indonesia, seperti pencurian kartu kredit, hacking beberapa situs, menyadap transmisi data orang lain, misalnya email, dan memanipulasi data dengan cara menyiapkan perintah yang tidak dikehendaki ke dalam programmer komputer. Sehingga dalam kejahatan komputer dimungkinkan adanya delik formil dan delik materil. Delik formil adalah perbuatan seseorang yang memasuki komputer orang lain tanpa ijin, sedangkan delik materil adalah perbuatan yang menimbulkan akibat kerugian bagi orang lain. Adanya CyberCrime telah menjadi ancaman stabilitas, sehingga pemerintah sulit mengimbangi teknik kejahatan yang dilakukan dengan teknologi komputer, khususnya jaringan internet dan intranet.</p>
+
+<h3>Pengertian Cybercrime</h3>
+
+<p>Cybercrime merupakan bentuk-bentuk kejahatan yang timbul karena pemanfaatan teknologi internet. Beberapa pendapat mengindentikkan cybercrime dengan computer crime. <strong><em>The U.S. Department of Justice</em></strong> memberikan pengertien computer crime sebagai:</p>
+
+<p><blockquote><p><i>&ldquo;…any illegal act requiring knowledge of computer technology for its perpetration, investigation, or prosecution&rdquo;.</i></p></blockquote></p>
+
+<p>Pengertian tersebut identik dengan yang diberikan <strong><em>Organization of European Community Development</em></strong>, yang mendefinisikan computer crime sebagai:</p>
+
+<p><blockquote><p><i>“any illegal, unehtical or unauthorized behavior relating to the automatic processing and/or the transmission of data”.</i></p></blockquote></p>
+
+<p>Adapun Andi Hamzah (1989) dalam tulisannya <strong><em>Aspek-aspek Pidana di Bidang komputer</em></strong>, mengartikan kejahatan komputer sebagai:</p>
+
+<p><blockquote><p><i>”Kejahatan di bidang komputer secara umum dapat diartikan sebagai penggunaan komputer secara illegal”.</i></p></blockquote></p>
+
+<p>Dari beberapa pengertian di atas, secara ringkas dapat dikatakan bahwa cybercrime dapat didefinisikan sebagai perbuatan melawan hukum yang dilakukan dengan menggunakan internet yang berbasis pada kecanggihan teknologi komputer dan telekomunikasi.</p>
+
+<h3>Karakteristik Cybercrime</h3>
+
+<p>Selama ini dalam kejahatan konvensional, dikenal adanya dua jenis kejahatan sebagai berikut:</p>
+
+<ol>
+<li><p><strong>Kejahatan Kerah Biru (Blue Collar Crime).</strong> Kejahatan ini merupakan jenis kejahatan atau tindak kriminal yang dilakukan secara konvensional seperti misalnya perampokkan, pencurian, pembunuhan dan lain-lain.</p></li>
+<li><p><strong>Kejahatan Kerah Putih (White Collar Crime).</strong> Kejahatan jenis ini terbagi dalam empat kelompok kejahatan, yakni kejahatan korporasi, kejahatan birokrat, malpraktek, dan kejahatan individu.</p></li>
+</ol>
+
+
+<p>Cybercrime sendiri sebagai kejahatan yang muncul sebagai akibat adanya komunitas dunia maya di internet, memiliki karakteristik tersendiri yang berbeda dengan kedua model di atas. Karakteristik unik dari kejahatan di dunia maya tersebut antara lain menyangkut lima hal berikut:</p>
+
+<ol>
+<li>Ruang lingkup kejahatan</li>
+<li>Sifat kejahatan</li>
+<li>Pelaku kejahatan</li>
+<li>Modus Kejahatan</li>
+<li>Jenis kerugian yang ditimbulkan</li>
+</ol>
+
+
+<h3>Jenis Cybercrime</h3>
+
+<p>Berdasarkan jenis aktifitas yang dilakukannya, cybercrime dapat digolongkan menjadi beberapa jenis sebagai berikut :</p>
+
+<ol>
+<li><p><strong>Unauthorized Access.</strong> Merupakan kejahatan yang terjadi ketika seseorang memasuki atau menyusup ke dalam suatu sistem jaringan komputer secara tidak sah, tanpa izin, atau tanpa sepengetahuan dari pemilik sistem jaringan komputer yang dimasukinya. Probing dan port merupakan contoh kejahatan ini.</p></li>
+<li><p><strong>Illegal Contents.</strong> Merupakan kejahatn yang dilakukan dengan memasukkan data atau informasi ke internet tentang suatu hal yang tidak benar, tidak etis, dan dapat dianggap melanggar hukum atau menggangu ketertiban umum, contohnya adalah penyebaran pornografi.</p></li>
+<li><p><strong>Penyebaran virus secara sengaja.</strong> Penyebaran virus pada umumnya dilakukan dengan menggunakan email. Sering kali orang yang sistem emailnya terkena virus tidak menyadari hal ini. Virus ini kemudian dikirimkan ke tempat lain melalui emailnya.</p></li>
+<li><p><strong>Data Forgery.</strong> Kejahatan jenis ini dilakukan dengan tujuan memalsukan data pada dokumen-dokumen penting yang ada di internet. Dokumen-dokumen ini biasanya dimiliki oleh institusi atau lembaga yang memiliki situs berbasis web database.</p></li>
+<li><p><strong>Cyber Espionage, Sabotage, and Extortion.</strong> Cyber Espionage merupakan kejahatan yang memanfaatkan jaringan internet untuk melakukan kegiatan mata-mata terhadap pihak lain, dengan memasuki sistem jaringan komputer pihak sasaran. Sabotage and Extortion merupakan jenis kejahatan yang dilakukan dengan membuat gangguan, perusakan atau penghancuran terhadap suatu data, program komputer atau sistem jaringan komputer yang terhubung dengan internet.</p></li>
+<li><p><strong>Cyberstalking.</strong> Kejahatan jenis ini dilakukan untuk mengganggu atau melecehkan seseorang dengan memanfaatkan komputer, misalnya menggunakan e-mail dan dilakukan berulang-ulang. Kejahatan tersebut menyerupai teror yang ditujukan kepada seseorang dengan memanfaatkan media internet. Hal itu bisa terjadi karena kemudahan dalam membuat email dengan alamat tertentu tanpa harus menyertakan identitas diri yang sebenarnya.</p></li>
+<li><p><strong>Carding.</strong> Carding merupakan kejahatan yang dilakukan untuk mencuri nomor kartu kredit milik orang lain dan digunakan dalam transaksi perdagangan di internet.</p></li>
+<li><p><strong>Hacking dan Cracker.</strong> Istilah hacker biasanya mengacu pada seseorang yang punya minat besar untuk mempelajari sistem komputer secara detail dan bagaimana meningkatkan kapabilitasnya. Adapun mereka yang sering melakukan aksi-aksi perusakan di internet lazimnya disebut cracker. Boleh dibilang cracker ini sebenarnya adalah hacker yang yang memanfaatkan kemampuannya untuk hal-hal yang negatif. Aktivitas cracking di internet memiliki lingkup yang sangat luas, mulai dari pembajakan account milik orang lain, pembajakan situs web, probing, menyebarkan virus, hingga pelumpuhan target sasaran. Tindakan yang terakhir disebut sebagai DoS (Denial Of Service). Dos attack merupakan serangan yang bertujuan melumpuhkan target (hang, crash) sehingga tidak dapat memberikan layanan.</p></li>
+<li><p><strong>Cybersquatting and Typosquatting.</strong> Cybersquatting merupakan kejahatan yang dilakukan dengan mendaftarkan domain nama perusahaan orang lain dan kemudian berusaha menjualnya kepada perusahaan tersebut dengan harga yang lebih mahal. Adapun typosquatting adalah kejahatan dengan membuat domain plesetan yaitu domain yang mirip dengan nama domain orang lain. Nama tersebut merupakan nama domain saingan perusahaan.</p></li>
+<li><p><strong>Hijacking.</strong> Hijacking merupakan kejahatan melakukan pembajakan hasil karya orang lain. Yang paling sering terjadi adalah Software Piracy (pembajakan perangkat lunak).</p></li>
+<li><p><strong>Cyber Terorism.</strong> Suatu tindakan cybercrime termasuk cyber terorism jika mengancam pemerintah atau warganegara, termasuk cracking ke situs pemerintah atau militer.</p></li>
+</ol>
+
+
+<h3>Berdasarkan Motif Kegiatan</h3>
+
+<p>Berdasarkan motif kegiatan yang dilakukannya, cybercrime dapat digolongkan menjadi dua jenis sebagai berikut :</p>
+
+<ol type="a">
+<li><p>Cybercrime sebagai tindakan murni kriminal
+Kejahatan yang murni merupakan tindak kriminal merupakan kejahatan yang dilakukan karena motif kriminalitas. Kejahatan jenis ini biasanya menggunakan internet hanya sebagai sarana kejahatan. Contoh kejahatan semacam ini adalah Carding, yaitu pencurian nomor kartu kredit milik orang lain untuk digunakan dalam transaksi perdagangan di internet. Juga pemanfaatan media internet (webserver, mailing list) untuk menyebarkan material bajakan. Pengirim e-mail anonim yang berisi promosi (spamming) juga dapat dimasukkan dalam contoh kejahatan yang menggunakan internet sebagai sarana. Di beberapa negara maju, pelaku spamming dapat dituntut dengan tuduhan pelanggaran privasi.</p></li>
+<li><p> Cybercrime sebagai kejahatan ”abu-abu&#8221;
+Pada jenis kejahatan di internet yang masuk dalam wilayah ”abu-abu”, cukup sulit menentukan apakah itu merupakan tindak kriminal atau bukan mengingat motif kegiatannya terkadang bukan untuk kejahatan. Salah satu contohnya adalah probing atau portscanning. Ini adalah sebutan untuk semacam tindakan pengintaian terhadap sistem milik orang lain dengan mengumpulkan informasi sebanyak-banyaknya dari sistem yang diintai, termasuk sistem operasi yang digunakan, port-port yang ada, baik yang terbuka maupun tertutup, dan sebagainya.</p></li>
+</ol>
+
+
+<h3>Berdasarkan Sasaran Kejahatan</h3>
+
+<p>Sedangkan berdasarkan sasaran kejahatan, cybercrime dapat dikelompokkan menjadi beberapa kategori seperti berikut ini :</p>
+
+<ol>
+<li><p><strong>Cybercrime yang menyerang individu (Against Person).</strong> Jenis kejahatan ini, sasaran serangannya ditujukan kepada perorangan atau individu yang memiliki sifat atau kriteria tertentu sesuai tujuan penyerangan tersebut. Beberapa contoh kejahatan ini antara lain :</p>
+
+<ul>
+<li><strong><em>Pornografi.</em></strong> Kegiatan yang dilakukan dengan membuat, memasang, mendistribusikan, dan menyebarkan material yang berbau pornografi, cabul, serta mengekspos hal-hal yang tidak pantas.</li>
+<li><strong><em>Cyberstalking.</em></strong> Kegiatan yang dilakukan untuk mengganggu atau melecehkan seseorang dengan memanfaatkan komputer, misalnya dengan menggunakan e-mail yang dilakukan secara berulang-ulang seperti halnya teror di dunia cyber. Gangguan tersebut bisa saja berbau seksual, religius, dan lain sebagainya.</li>
+<li><strong><em>Cyber-Tresspass.</em></strong> Kegiatan yang dilakukan melanggar area privasi orang lain seperti misalnya Web Hacking. Breaking ke PC, Probing, Port Scanning dan lain sebagainya.</li>
+</ul>
+</li>
+<li><p><strong>Cybercrime menyerang hak milik (Againts Property).</strong> Cybercrime yang dilakukan untuk menggangu atau menyerang hak milik orang lain. Beberapa contoh kejahatan jenis ini misalnya pengaksesan komputer secara tidak sah melalui dunia cyber, pemilikan informasi elektronik secara tidak sah/pencurian informasi, carding, cybersquating, hijacking, data forgery dan segala kegiatan yang bersifat merugikan hak milik orang lain.</p></li>
+<li><p><strong>Cybercrime menyerang pemerintah (Againts Government).</strong> Cybercrime Againts Government dilakukan dengan tujuan khusus penyerangan terhadap pemerintah. Kegiatan tersebut misalnya cyber terorism sebagai tindakan yang mengancam pemerintah termasuk juga cracking ke situs resmi pemerintah atau situs militer.</p></li>
+</ol>
+
+
+<h3>Penanggulangan Cybercrime</h3>
+
+<p>Aktivitas pokok dari cybercrime adalah penyerangan terhadap content, computer system dan communication system milik orang lain atau umum di dalam cyberspace. Fenomena cybercrime memang harus diwaspadai karena kejahatan ini agak berbeda dengan kejahatan lain pada umumnya. Cybercrime dapat dilakukan tanpa mengenal batas teritorial dan tidak memerlukan interaksi langsung antara pelaku dengan korban kejahatan. Berikut ini cara penanggulangannya :</p>
+
+<ol>
+<li><p><strong>Mengamankan sistem.</strong> Tujuan yang nyata dari sebuah sistem keamanan adalah mencegah adanya perusakan bagian dalam sistem karena dimasuki oleh pemakai yang tidak diinginkan. Pengamanan sistem secara terintegrasi sangat diperlukan untuk meminimalisasikan kemungkinan perusakan tersebut. Membangun sebuah keamanan sistem harus merupakan langkah-langkah yang terintegrasi pada keseluruhan subsistemnya, dengan tujuan dapat mempersempit atau bahkan menutup adanya celah-celah unauthorized actions yang merugikan. Pengamanan secara personal dapat dilakukan mulai dari tahap instalasi sistem sampai akhirnya menuju ke tahap pengamanan fisik dan pengamanan data. Pengaman akan adanya penyerangan sistem melaui jaringan juga dapat dilakukan dengan melakukan pengamanan FTP, SMTP, Telnet dan pengamanan Web Server.</p></li>
+<li><p><strong>Penanggulangan Global.</strong> The Organization for Economic Cooperation and Development (OECD) telah membuat guidelines bagi para pembuat kebijakan yang berhubungan dengan computer-related crime, dimana pada tahun 1986 OECD telah memublikasikan laporannya yang berjudul Computer-Related Crime : Analysis of Legal Policy. Menurut OECD, beberapa langkah penting yang harus dilakukan setiap negara dalam penanggulangan cybercrime adalah :</p>
+
+<ul>
+<li>Melakukan modernisasi hukum pidana nasional beserta hukum acaranya.</li>
+<li>Meningkatkan sistem pengamanan jaringan komputer nasional sesuai standar internasional.</li>
+<li>Meningkatkan pemahaman serta keahlian aparatur penegak hukum mengenai upaya pencegahan, investigasi dan penuntutan perkara-perkara yang berhubungan dengan cybercrime.</li>
+<li>meningkatkan kesadaran warga negara mengenai masalah cybercrime serta pentingnya mencegah kejahatan tersebut terjadi.</li>
+<li>Meningkatkan kerjasama antarnegara, baik bilateral, regional maupun multilateral, dalam upaya penanganan cybercrime.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3>Perlunya Cyberlaw</h3>
+
+<p>Perkembangan teknologi yang sangat pesat, membutuhkan pengaturan hukum yang berkaitan dengan pemanfaatan teknologi tersebut. Sayangnya, hingga saat ini banyak negara belum memiliki perundang-undangan khusus di bidang teknologi informasi, baik dalam aspek pidana maupun perdatanya.</p>
+
+<p>Permasalahan yang sering muncul adalah bagaimana menjaring berbagai kejahatan komputer dikaitkan dengan ketentuan pidana yang berlaku karena ketentuan pidana yang mengatur tentang kejahatan komputer yang berlaku saat ini masih belum lengkap.</p>
+
+<p>Banyak kasus yang membuktikan bahwa perangkat hukum di bidang TI masih lemah. Seperti contoh, masih belum dilakuinya dokumen elektronik secara tegas sebagai alat bukti oleh KUHP. Hal tersebut dapat dilihat pada UU No8/1981 Pasal 184 ayat 1 bahwa undang-undang ini secara definitif membatasi alat-alat bukti hanya sebagai keterangan saksi, keterangan ahli, surat, petunjuk, dan keterangan terdakwa saja. Demikian juga dengan kejahatan pornografi dalam internet, misalnya KUH Pidana pasal 282 mensyaratkan bahwa unsur pornografi dianggap kejahatan jika dilakukan di tempat umum.</p>
+
+<p>Hingga saat ini, di negara kita ternyata belum ada pasal yang bisa digunakan untuk menjerat penjahat cybercrime. Untuk kasuss carding misalnya, kepolisian baru bisa menjerat pelaku kejahatan komputer dengan pasal 363 soal pencurian karena yang dilakukan tersangka memang mencuri data kartu kredit orang lain.</p>
+
+<h3>Perlunya Dukungan Lembaga Khusus</h3>
+
+<p>Lembaga-lembaga khusus, baik milik pemerintah maupun NGO (Non Government Organization), diperlukan sebagai upaya penanggulangan kejahatan di internet. Amerika Serikat memiliki komputer Crime and Intellectual Property Section (CCIPS) sebagai sebuah divisi khusus dari U.S. Departement of Justice. Institusi ini memberikan informasi tentang cybercrime, melakukan sosialisasi secara intensif kepada masyarakat, serta melakukan riset-riset khusus dalam penanggulangan cybercrime. Indonesia sendiri sebenarnya sudah memiliki IDCERT (Indonesia Computer Emergency Rensponse Team). Unit ini merupakan point of contact bagi orang untuk melaporkan masalah-masalah keamanan komputer.</p>
+
+<hr />
+
+
+<h1>IT Forensics</h1>
+
+<p>Menurut Wikipedia, IT forensic atau forensic computer atau forensic digital adalah cabang forensic, TI forensic berkaitan dengan penyelidikan insiden yang mencurigakan yang melibatkan IT sistem dan penentuan fakta-fakta dan pelaku akuisisi, analisis, dan evaluasi jejak digital dalam sistem computer.</p>
+
+<p>Secara umum IT forensic adalah ilmu yang berhubungan dengan pengumpulan fakta dan bukti pelanggaran keamanan sistem informasi serta validasinya menurut metode yang digunakan (misalnya metode sebab-akibat). IT forensic bertujuan untuk mendapatkan fakta-fakta obyektif dari sebuah insiden / pelanggaran keamanan sistem informasi. Fakta-fakta tersebut setelah diverifikasi akan menjadi bukti-bukti envidence yang akan digunakan dalam proses hukum.</p>
+
+<p>Tools atau perangkat forensic adalah perangkat lunak yang dibuat untuk mengakses data. Perangkat ini digunakan untuk mencari berbagai informasi dalam hard drive, serta menjebol password dengan memecahkan enkripsi. Yang digunakan pada IT forensic dibedakan menjadi 2 yaitu hardware dan software. Dilihat dari sisi hardware, spsifikasi yang digunakan harus mempunyai kapasitas yang mumpuni seperti :</p>
+
+<ul>
+<li>Hardisk atau storage yang mempunya kapasitas penyimpanan yang besar.</li>
+<li>Memory RAM antara (1-2 GB).</li>
+<li>Hub, Switch atau LAN</li>
+<li>Laptop khusus untuk forensic workstations.</li>
+</ul>
+
+
+<p>Jika dilihat dari sisi software yang digunakan harus khusus dan memiliki kemampuan yang memadai untuk melakukan IT forensic seperti :</p>
+
+<ul>
+<li>Write-Blocking Tools untuk memproses bukti-bukti.</li>
+<li>Text Search Utilities (dtsearch) berfungsi sebagai alat untuk mencari koleksi dokumen yang besar.</li>
+<li>Hash Utility ( MD5sum) berfungsi untuk menghitung dan memverifikasi 128-bit md5 hash, untuk sidik jari file digital.</li>
+<li>Forensic Acqusition tools (encase) digunakan oleh banyak penegak hokum untuk investigasi criminal, investigasi jaringan, data kepatuhan, dan penemuan elektronik.</li>
+<li>Spy Anytime PC Spy digunakan untuk memonitoring berbagai aktifitas computer, seperti : seperti: website logs, keystroke logs,  application logs, dan screenshot logs.</li>
+</ul>
+
+
+<p>Ada 4 tahap dalam Komputer Forensik menurut Majalah CHIP :</p>
+
+<ol>
+<li>Pengumpulan data
+Pengumpulan data bertujuan untuk meng i den tifikasi berbagai sumber daya yang dianggap penting dan bagaimana semua data dapat terhimpun dengan baik.</li>
+<li>Pengujian
+engujian mencakup proses penilaian dan meng-ekstrak berbagai informasi yang relevan dari semua data yang dikumpulkan. Tahap ini juga mencakup bypassing proses atau meminimalisasi berbagai feature sistem operasi dan aplikasi yang dapat menghilangkan data, seperti kompresi, enkripsi, dan akses mekanisme kontrol. Cakupan lainnya adalah meng alokasi file, mengekstrak file, pemeriksanan meta data, dan lain sebagainya.</li>
+<li>Analisis
+Analisis dapat dilakukan dengan menggunakan pendekatan sejumlah metode. Untuk memberikan kesimpulan yang berkualitas harus didasarkan pada ketersediaan sejumlah data atau bahkan sebaliknya, dengan menyimpulkan bahwa “tidak ada kesimpulan”. Hal tersebut sa ngat dimungkinan kan. Tugas analisis ini mencakup berbagai kegia tan, seperti identifikasi user atau orang di luar pengguna yang terlibat secara tidak langsung, lokasi, perangkat, kejadiaan, dan mempertimbangkan bagaimana semua komponen tersebut saling terhubung hingga mendapat kesimpulan akhir.</li>
+<li>Dokumentasi dan laporan</li>
+</ol>
+
+
+<p>Mengingat semakin banyak kasus-kasus yang terindikasi sebagai cybercrime, maka selain aspek hukum maka secara teknis juga perlu disiapkan berbagai upaya preventif terhadap penangulangan kasus cybercrime. Komputer forensik, sebagai sebuah bidang ilmu baru kiranya dapat dijadikan sebagai dukungan dari aspek ilmiah dan teknis dalam penanganan kasus-kasus cybercrime.</p>
+
+<p>Kedepan profesi sebagai investigator komputer forensik adalah sebuah profesi baru yang sangat dibutuhkan untuk mendukung implementasi hukum pada penanganan cybercrime. Berbagai produk hukum yang disiapkan untuk mengantisipasi aktivitas kejahatan berbantuan komputer tidak akan dapat berjalan kecuali didukung pula dengan komponen hukum yang lain. Dalam hal ini computer forensik memiliki peran yang sangat penting sebagai bagian dari upaya penyiapan bukti-bukti digital di persidangan.</p>
+
+<p><br/></p>
+
+<hr />
+
+
+<p style="text-align:center;">Sumber : <a href="https://balianzahab.wordpress.com/cybercrime/modus-modus-kejahatan-dalam-teknologi-informasi/">Blog 1</a>, <a href="https://ba9uez.wordpress.com/it-forensik/">Blog 2</a></p>
+
+<hr />
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Etika Dan Profesionalisme Dalam IT]]></title>
@@ -106,6 +296,16 @@ adalah:</p>
 <li><p>Standar‐standar etika merupakan dasar untuk menjaga kelakuan dan integritas atau kejujuran dari tenaga ahli profesi</p></li>
 <li><p>Perlu diketahui bahwa kode etik profesi adalah tidak sama dengan hukum (atau undang‐undang). Seorang ahli profesi yang melanggar kode etik profesi akan menerima sangsi atau denda dari induk organisasi profesinya</p></li>
 </ol>
+
+
+<p><br/></p>
+
+<hr />
+
+
+<p style="text-align:center;">Sumber : <a href="https://tokeklincah.wordpress.com/2015/03/15/etika-dan-profesionalisme-dalam-teknologi-sistem-komputer-informasi/">Blog 1</a>, <a href="https://ikiriandy.wordpress.com/2015/03/25/pengertian-etika-profesi-etika-profesi-profesionalisme-dan-etika-profesi-di-bidang-etika-profesi-di-bidang-teknologi-informasi/">Blog 2</a></p>
+
+<hr />
 
 ]]></content>
   </entry>
@@ -468,36 +668,6 @@ Wireless atau dalam bahasa Indonesia disebut nirkabel, adalah teknologi yang men
 <p>Untuk mengantisipasi hal-hal yang tidak dikehendaki terhadap keaslian dan perkembangan yang murni bagi kesenian rakyat tersebut, maka pemerintah perlu mengembalikan fungsi pemerintah sebagai pelindung dan pengayom kesenian-kesenian tradisional tanpa harus turut campur dalam proses estetikanya. Memang diakui bahwa kesenian rakyat saat ini membutuhkan dana dan bantuan pemerintah sehingga sulit untuk menghindari keterlibatan pemerintah dan bagi para seniman rakyat ini merupakan sesuatu yang sulit pula membuat keputusan sendiri untuk sesuai dengan keaslian (oroginalitas) yang diinginkan para seniman rakyat tersebut. Oleh karena itu pemerintah harus ‘melakoni’ dengan benar-benar peranannya sebagai pengayom yang melindungi keaslian dan perkembangan secara estetis kesenian rakyat tersebut tanpa harus merubah dan menyesuaikan dengan kebijakan-kebijakan politik.</p>
 
 <p>Selama ini pembinaan dan pengembangan kesenian tradisional yang dilakukan lembaga pemerintah masih sebatas pada unsur formalitas belaka, tanpa menyentuh esensi kehidupan kesenian yang bersangkutan.Akibatnya, kesenian tradisional tersebut bukannya berkembang dan lestari, namun justru semakin dijauhi masyarakat.Dengan demikian, tantangan yang dihadapi oleh kesenian rakyat cukup berat.Karena pada era teknologi dan komunikasi yang sangat canggih dan modern ini masyarakat dihadapkan kepada banyaknya alternatif sebagai pilihan, baik dalam menentukan kualitas maupun selera.Hal ini sangat memungkinkan keberadaan dan eksistensi kesenian rakyat dapat dipandang dengan sebelah mata oleh masyarakat, jika dibandingkan dengan kesenian modern yang merupakan imbas dari budaya pop. Untuk menghadapi hal-hal tersebut di atas ada beberapa alternatif untuk mengatasinya, yaitu meningkatkan Sumber Daya Manusia (SDM ) bagi para seniman rakyat. Selain itu, mengembalikan peran aparat pemerintah sebagai pengayom dan pelindung, dan bukan sebaliknya justru menghancurkannya demi kekuasaan dan pembangunan yang berorientasi pada dana-dana proyek atau dana-dana untuk pembangunan dalam bidang ekonomi saja.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Metode Penalaran Deduktif Dan Induktif]]></title>
-    <link href="http://blog.lukmanh.com/blog/2016/01/26/metode-penalaran-deduktif-dan-induktif/"/>
-    <updated>2016-01-26T08:55:22+07:00</updated>
-    <id>http://blog.lukmanh.com/blog/2016/01/26/metode-penalaran-deduktif-dan-induktif</id>
-    <content type="html"><![CDATA[<p>Penalaran adalah proses berpikir yang bertolak dari pengamatan indera (pengamatan empirik) yang menghasilkan sejumlah konsep dan pengertian. Berdasarkan pengamatan yang sejenis juga akan terbentuk proposisi – proposisi yang sejenis, berdasarkan sejumlah proposisi yang diketahui atau dianggap benar, orang menyimpulkan sebuah proposisi baru yang sebelumnya tidak diketahui.  Proses inilah yang disebut menalar.</p>
-
-<!-- more -->
-
-
-<p>Dalam penalaran, proposisi yang dijadikan dasar penyimpulan disebut dengan premis (antesedens) dan hasil kesimpulannya disebut dengan konklusi. Hubungan antara premis dan konklusi disebut konsekuensi.</p>
-
-<h2>Metode Deduktif</h2>
-
-<p>Metode berpikir deduktif adalah metode berpikir yang menerapkan hal-hal yang umum terlebih dahulu untuk seterusnya dihubungkan dalam bagian-bagiannya yang khusus.</p>
-
-<h4>Contoh paragraf Deduktif</h4>
-
-<p>Masyarakat Indonesia konsumtif (umum) dikarenakan adanya perubahan arti sebuah kesuksesan (khusus) dan kegiatan imitasi (khusus) dari media-media hiburan yang menampilkan gaya hidup konsumtif sebagai prestasi sosial dan penanda status sosial. (sumber) Kebersihan sangat menjadi masalah di sekolah. Ini terjadi karena banyak murid-murid yang tidak sadar akan kebersihan. Padahal “kebersihan adalah sebagian dari iman”.</p>
-
-<h2>Metode Induktif</h2>
-
-<p>Paragraf Induktif adalah paragraf yang diawali dengan menjelaskan permasalahan-permasalahan khusus (mengandung pembuktian dan contoh-contoh fakta) yang diakhiri dengan kesimpulan yang berupa pernyataan umum. Paragraf Induktis sendiri dikembangkan menjadi beberapa jenis. Pengembangan tersebut yakni paragraf generalisasi, paragraf analogi, paragraf sebab akibat bisa juga akibat sebab.</p>
-
-<h4>Contoh paragraf Induktif</h4>
-
-<p>Pada saat ini remaja lebih menyukai kebudayaan dari jepang seperti cosplay, harajuku style, maid cafe dan lain sebagainya. Begitupula dengan jenis musik umumnya mereka menyukai j-rock, j-metal, maupun reff tarian dan kesenian tradisional mulai ditinggalkan dan beralih mengikuti tren jepang. Penerimaan terhadap bahaya luar yang masuk tidak disertai dengan pelestarian budaya sendiri. Kesenian dan budaya luar perlahan-lahan menggeser kesenian dan budaya tradisional. (sumber)</p>
 ]]></content>
   </entry>
   

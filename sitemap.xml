@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://blog.lukmanh.com/blog/2017/03/31/modus-modus-kejahatan-dalam-bidang-teknologi-informasi/</loc>
+<lastmod>2017-03-31T09:22:17+07:00</lastmod>
+</url>
+<url>
 <loc>http://blog.lukmanh.com/blog/2017/03/18/etika-dan-profesionalisme-dalam-it/</loc>
 <lastmod>2017-03-18T13:04:16+07:00</lastmod>
 </url>
@@ -146,5 +150,8 @@
 </url>
 <url>
 <loc>http://blog.lukmanh.com/posts/3/</loc>
+</url>
+<url>
+<loc>http://blog.lukmanh.com/posts/4/</loc>
 </url>
 </urlset>
