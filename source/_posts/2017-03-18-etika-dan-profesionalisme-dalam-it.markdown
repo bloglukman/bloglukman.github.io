@@ -107,3 +107,8 @@ adalah:
 5. Standar‐standar etika merupakan dasar untuk menjaga kelakuan dan integritas atau kejujuran dari tenaga ahli profesi
 
 6. Perlu diketahui bahwa kode etik profesi adalah tidak sama dengan hukum (atau undang‐undang). Seorang ahli profesi yang melanggar kode etik profesi akan menerima sangsi atau denda dari induk organisasi profesinya
+
+<br/>
+<hr />
+->Sumber : [Blog 1](https://tokeklincah.wordpress.com/2015/03/15/etika-dan-profesionalisme-dalam-teknologi-sistem-komputer-informasi/), [Blog 2](https://ikiriandy.wordpress.com/2015/03/25/pengertian-etika-profesi-etika-profesi-profesionalisme-dan-etika-profesi-di-bidang-etika-profesi-di-bidang-teknologi-informasi/)<-
+<hr />
