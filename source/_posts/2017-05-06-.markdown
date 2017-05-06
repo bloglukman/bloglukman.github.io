@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Sertifikasi Keahlian di bidang IT"
+date: 2017-05-06 19:10:38 +0700
+comments: true
+categories: Article
+---
+
+Teknologi Informasi (IT) merupakan teknologi yang selalu berkembang baik secara revolusioner (seperti  misalnya perkembangan dunia perangkat keras), maupun yang lebih bersifat evolusioner (seperti yang terjadi pada perkembangan perangkat lunak). Hal itu mengakibatkan bahwa pekerjaan di bidang Teknologi Informasi menjadi suatu pekerjaan di mana pelakunya harus terus mengembangkan ilmu yang dimilikinya untuk mengikuti perkembangan Teknologi Informasi tersebut.
+
+<!-- more -->
+
+Sertifikasi keahlian di bidang IT dibutuhkan untuk mendapatkan pengakuan atau spesifikasi untuk bidang spesialisasi anda. Seperti pengalaman terhadap penggunaan software tertentu yang diimplementasikan dalam perusahaan tersebut. Selain itu, Standar kompetensi dibutuhkan untuk memudahkan bagi perusahaan atau instusi untuk menilai kemampuan calon pegawai atau pegawainya.
+
+###Pengertian Sertifikasi
+Sertifikasi memiiki pengertian yaitu independen, obyektif, dan tugas yang regular bagi kepentingan profesional dalam satu atau lebih area di teknologi informasi. Sertifikasi TI menunjukkan para Professional Teknologi Informasi memiliki pengetahuan dan kompetensi yang dapat dibuktikan. Sertifikasi TI memberikan keunggulan bersaing bagi perusahaan,khususnya dalam pasar global karena kemampuan dan pengetahuan Profesional Teknologi Informasi dan Telekomunikasi telah diuji dan didokumentasikan.
+
+###Keuntungan Sertifikasi
+Sertifikasi memiliki keuntungan antara lain membuka lebih banyak kesempatan pekerjaan, meningkatkan kredibilitas seorang profesional TI di mata pemberi kerja, meningkatkan posisi dan reputasi bagi yang sudah bekerja,meningkatkan kompetensi dengan tenaga-tenaga TI dari mancanegara.
+
+###Tujuan Sertifikasi
+Sertifikasi memiliki tujuan diantaranya membentuk tenaga praktisi TI yang berkualitas tinggi, membentuk standar kerja TI yang tinggi, pengembangan profesional yang berkesinambungan.
+
+###Jenis Sertifikasi
+Sertifikasi memiliki bebagai jenis antara lain :
+
+* Sertifikasi akademik yang memberikan gelar Sarjana, Master dan lain-lain.
+* Sertifikasi profesi, yaitu suatu sertifikasi yang diberikan berdasarkan keahlian tertentu untuk profesi tertentu.
+
+###Tiga Model Sertifikasi Profesional
+
+* Dikembangkan oleh Profesional Society, sebagai contoh British Computer Society (BCS), Australian Computer Soicety (ACS), South East Asian Regional Computer Confederation (SEARCC)
+* Dikeluarkan oleh Komunitas suatu profesi, sebagai contoh Linux Profesional, SAGE (System Administration Guild), CISA ([IS Auditing](http://www.isaca.org/))
+* Dikeluarkan oleh vendor sebagai contoh MCSE (by Microsoft), CCNA (Cisco), CNE (Netware), RHCE (Red Hat). Biasanya skill yang dibutuhkan untuk memperoleh sertifikat ini sangat spesifik dan sangat berorientasi pada suatu produk dari vendor tersebut.
+Profesi yang Memerlukan Sertifikasi TI :
+
+###Profesional ICT (operator, administrator, developer, engineer, specialist)
+
+* Akademisi ICT (trainer, lecturer, instructor and teacher)
+* Manager dan Supervisor ICT
+* Semua pihak yang terlibat dalam pengembangan TI dan telekomunikasi
+
+###Contoh Sertifikasi
+
+Contoh Sertifikasi Nasional :
+
+Terdapat dua jenis Sertifikat yang diterbitkan oleh LSP Telematika, yaitu Certificate of Competence dan Certificate of Attainment.
+
+a. Certificate of Competence
+Sertifikasi ini berdasarkan level kualifikasi dan jenjang jabatan sesuai dengan yang ditetapkan oleh Kerangka Kualifikasi Nasional Indonesia (KKNI). Certificate of Competence (Sertifikat Kompetensi) merupakan bukti pengakuan atas kompetensi seseorang setelah melakukan uji kompetensi dari suatu bidang keahlian kerja.
+
+b. Certificate of Attainment
+Sertifkasi ini atas unit kompetensi yang jenjang jabatannya berdasarkan kebutuhan pasar. Kedua jenis sertifikat tersebut diatas disusun berdasarkan SKKNI.
+
+Contoh Sertifikasi Internasional :
+
+a. Sertifikasi untuk Bahasa Pemrograman
+Program Java → sertifikasi dari Sun : Sun Certified Programmer, Sun Certified Developer, dan Sun Certified Architect.
+Program Java Mobile → sertifikasi dari Sun : Sun Certified Web Component Developer (SCWCD), Sun Certified Business Component Developer (SCBCD), Sun Certified Developer for Java Web Services (SCDJWS), dan Sun Certified Mobile Application Developer untuk platform J2ME (SCMAD).
+Program Microsoft.NET → sertifikasi dari Microsoft : Microsoft Certification Application Developer (MCAD) dan Microsoft Certified Solution Developer (MCSD).
+
+b. Sertifikasi untuk Database
+Database Microsoft SQL Server → sertifikasi dari Microsoft : Microsoft Certified DBADatabase Oracle → sertifikasi dari Oracle :
+Oracle Certified DBA, terdapat tiga jenjang, yaitu Oracle Certified DBA Associate, Oracle Certified DBA Professional, dan Oracle Certified DBA MasterOracle
+Certified Developer, terdapat tiga jenjang, yaitu Oracle9i PL/SQl Developer Certified Associate, Oracle9iForms Developer Certified Professional dan Oracle9iAS Web Administrator
+
+c. Sertifikasi untuk Office
+Microsoft Office → sertifikasi dari Microsoft : Sertifikasi Microsoft Office Specialist (Office Specialist), tersedia dalam tiga jalur: Office 2003 Editions, Office XP, dan Office 2000.
+
+d. Sertifikasi di Bidang Jaringan
+Sertifikasi dari Cisco : Cisco Certified Network Associate (CCNA), Cisco Certified Network Professional (CCNP), Cisco Certified Internetworking Expert(CCIE), Cisco Certified Designing Associate (CCDA), Cisco Certified Designing Professional (CCDP), Cisco Security Specialist 1 (CSS1), dan lain sebagainya.
+Sertifikasi dari CompTIA : CompTIA Network+, CompTIA Security+, CompTIA A+ dan CompTIA Server+.
+
+e. Sertifikasi di Bidang Computer Graphics dan Multimedia
+Sertifikasi dari Adobe : ACE (Adobe Certified Expert), terdapat dua jalur sertifikasi, yaitu sertifikasi untuk satu produk (sertifikasi ACE Adobe InDesign CS) dan spesialis (sertifikasi ACE Print Specialist, Web Specialist, dan Video Specialist).
+Sertifikasi dari Macromedia : Certified Macromedia Flash MX Developer, Certified Macromedia Flash MX Designer, Certified ColdFusion MX Developer, dan Certified Dreamweaver MX Developer.
+
+f. Sertifikasi di Bidang Internet
+Certified Internet Web Master (CIW) : CIW Associates, CIW Profesional, CIW Master (terdapat empat pilihan jalur spesialisasi, yaitu Master CIW Designer, Master CIW Administrator, Master CIW Web Site Manager, dan Master CIW Enterprise Developer), CIW Security Analist dan CIW Web Developer.
+World Organization of Webmasters (WOW) : WOW Certified Apprentice Webmaster (CAW), WOW Certified Web Designer Apprentice (CWDSA), WOW Certified Web Developer Apprentice (CWDVA), WOW Certified Web Administrator Apprentice (CWAA) dan WOW Certified Professional Webmaster (CPW).
+
+g. Sertifikasi untuk Lotus
+Sertifikasi dari Lotus : Certified Lotus Specialist (CLS), Certified Lotus Professional Application Development (CLP AD), dan Certified Lotus Professional System Administration (CLP SA).
+
+h. Sertifikasi untuk Novell
+Novell : Novell Certified Linux Professional (Novell CLP), Novell Certified LinuxEngineer (Novell CLE), Suse Certified Linux Professional (Suse CLP), dan Master Certified Novell Engineer (MCNE).
+
+<br/>
+<hr />
+->Sumber : [Blog 1](https://dkhaprasetyo.wordpress.com/2016/04/27/sertifikasi-keahlian-dibidang-it-contoh-contoh-sertifikasi-nasional-dan-internasional-serta-sertifikasi-software-dan-database-development/), [Blog 2](https://ganjarsayogo.wordpress.com/2016/06/14/sertifikasi-keahlian-di-bidang-it-sertifikasi-nasional-dan-internasional-serta-sertifikasi-mengenai-software-maupun-database-development/)<-
+<hr />
