@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Java | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2017-05-06T19:16:17+07:00</updated>
+  <updated>2017-05-06T19:34:29+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -60,51 +60,32 @@
 <strong>2. Mendeklarasi class</strong></p>
 
 <p>Buka file yang telah anda buat dengan text editor seperti notepad atau bila perlu notepad++ agar code program lebih mudah dibaca. dibawah ini adalah Contoh class pada java.
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;}</span>
-</span></code></pre></td></tr></table></div></figure>
+{% codeblock lang:java %}
+class Hello{</p>
+
+<p>}
+{% endcodeblock %}
 Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi nama filenya <code>Hello.java</code></p>
 
 <p><br />
 <strong>3. Membuat Method Main</strong></p>
 
 <p>Buat main metode didalam class Hello. code program menjadi seperti dibawah.
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
-</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;}</span>
-</span><span class='line'><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+{% codeblock lang:java %}
+class Hello{
+    public static void main(String args[]){</p>
+
+<pre><code>}
+</code></pre>
+
+<p>}
+{% endcodeblock %}</p>
 
 <p><br />
 <strong>4. Menampilkan &ldquo;Hello World!&rdquo;</strong></p>
 
 <p>Untuk menampilkan output dilayar shell pada java kita dapat gunakan <code>System.out.print</code>. Sehingga kode program menjadi seperti gambar dibawah.
-<figure class='code'><figcaption><span> (Hello.java)</span> <a href='/downloads/code/java/Hello.java'>download</a></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
-</span><span class='line'>	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[]){</span>
-</span><span class='line'>		<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
-</span><span class='line'>	<span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+{% include_code java/Hello.java %}</p>
 
 <p><strong> 5. Compile dan Run</strong></p>
 
@@ -114,20 +95,21 @@ Mengapa class nya ditulis <code>Hello</code> ? tentu karena tadi saya memberi na
 <li>Buka cmd / terminal</li>
 <li>pindah ke direktori tempat kita membuat file dangan perintah cd. contoh jika kita membuat di
 desktop
-<figure class='code'><figcaption><span>Linux </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ cd ~/Desktop
-</span></code></pre></td></tr></table></div></figure>
-<figure class='code'><figcaption><span>Windows </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="go">&lt;blockquote&gt;&lt;p&gt;cd C:\Users\username\Desktop\</span>
-</span></code></pre></td></tr></table></div></figure></p></blockquote></li>
+{% codeblock lang:kconfig Linux %}
+$ cd ~/Desktop
+{% endcodeblock %}
+{% codeblock lang:rout Windows %}
+
+<blockquote><p>cd C:\Users\username\Desktop\
+{% endcodeblock %}</p></blockquote></li>
 <li>Compile kode program seperti contoh dibawah
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>javac Hello.java</span></code></pre></td></tr></table></div></figure></li>
+{% codeblock %}
+javac Hello.java
+{% endcodeblock %}</li>
 <li>jalankan hasil compile seperti contoh dibawah
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>java Hello</span></code></pre></td></tr></table></div></figure></li>
+{% codeblock %}
+java Hello
+{% endcodeblock %}</li>
 </ul>
 
 ]]></content>
@@ -193,15 +175,11 @@ desktop
 </ul>
 
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="go">&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="go">&lt;blockquote&gt;&lt;p&gt;set JAVA_HOME=&amp;ldquo;C:\Program Files\Java\jdk1.5.0_14&amp;rdquo;</span>
-</span><span class='line'><span class="go">set PATH=%JAVA_HOME%\bin;%PATH%</span>
-</span></code></pre></td></tr></table></div></figure></p></blockquote>
+<p>{% codeblock lang:rout %}</p>
+
+<blockquote><p>set JAVA_HOME=&ldquo;C:\Program Files\Java\jdk1.5.0_14&rdquo;
+set PATH=%JAVA_HOME%\bin;%PATH%
+{% endcodeblock %}</p></blockquote>
 
 <ul>
 <li>Check Java yang sudah kita install dengan cara :
@@ -214,13 +192,10 @@ desktop
 </ul>
 
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='rout'><span class='line'><span class="go">&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="go">&lt;blockquote&gt;&lt;p&gt;java -version</span>
-</span></code></pre></td></tr></table></div></figure></p></blockquote>
+<p>{% codeblock lang:rout %}</p>
+
+<blockquote><p>java -version
+{% endcodeblock %}</p></blockquote>
 
 <p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
 
@@ -240,9 +215,9 @@ desktop
 </ul>
 
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ file /sbin/init
-</span></code></pre></td></tr></table></div></figure></p>
+<p>{% codeblock lang:kconfig %}
+$ file /sbin/init
+{% endcodeblock %}</p>
 
 <ul>
 <li><p>Download Java JDK berdasarkan sistem operasi dan bit yang tepat di situs resmi <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Oracle</a>.</p></li>
@@ -257,13 +232,11 @@ desktop
 </ul>
 
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
-</span><span class='line'>$ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
-</span><span class='line'>$ <span class="k">source</span> /etc/profile
-</span></code></pre></td></tr></table></div></figure></p>
+<p>{% codeblock lang:kconfig %}
+$ export JAVA_HOME=/usr/java/jdk1.5.0_07/bin/java
+$ export PATH=$PATH:/usr/java/jdk1.5.0_07/bin
+$ source /etc/profile
+{% endcodeblock %}</p>
 
 <ul>
 <li>Check Java yang sudah kita install dengan cara :
@@ -276,9 +249,9 @@ desktop
 </ul>
 
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='kconfig'><span class='line'>$ java -version
-</span></code></pre></td></tr></table></div></figure></p>
+<p>{% codeblock lang:kconfig %}
+$ java -version
+{% endcodeblock %}</p>
 
 <p><strong> <em>Jika muncul versi java berarti anda telah sukses menginstall java. Jika belum coba restart Computer dan check version lagi. Jika belum juga berarti ada langkah yang terlewat</em> </strong></p>
 

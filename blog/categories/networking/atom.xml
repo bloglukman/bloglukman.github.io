@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Networking | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/networking/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2017-05-06T19:16:17+07:00</updated>
+  <updated>2017-05-06T19:34:29+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -59,7 +59,7 @@
 
 <p><br /></p>
 
-<p><img class="center" src="/images/crimp-1.jpeg" title="Gambar 1" ></p>
+<p>{% img center /images/crimp-1.jpeg Gambar 1 %}</p>
 
 <hr />
 
@@ -71,7 +71,7 @@
 
 <p><br /></p>
 
-<p><img class="center" src="/images/crimp-2.jpg" title="Gambar 2" ></p>
+<p>{% img center /images/crimp-2.jpg Gambar 2 %}</p>
 
 <hr />
 
@@ -83,7 +83,7 @@
 
 <p><br /></p>
 
-<p><img class="center" src="/images/crimp-3.jpeg" title="Gambar 3" ></p>
+<p>{% img center /images/crimp-3.jpeg Gambar 3 %}</p>
 
 <hr />
 
@@ -95,7 +95,7 @@
 
 <p><br /></p>
 
-<p><img class="center" src="/images/crimp-4.jpg" title="Gambar 4" ></p>
+<p>{% img center /images/crimp-4.jpg Gambar 4 %}</p>
 
 <hr />
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Article | Lukman's Blog]]></title>
   <link href="http://blog.lukmanh.com/blog/categories/article/atom.xml" rel="self"/>
   <link href="http://blog.lukmanh.com/"/>
-  <updated>2017-05-06T19:16:17+07:00</updated>
+  <updated>2017-05-06T19:34:29+07:00</updated>
   <id>http://blog.lukmanh.com/</id>
   <author>
     <name><![CDATA[Lukman Hakim]]></name>
@@ -336,11 +336,16 @@ Data kontak bisnis berfungsi untuk mengorganisasikan dan menyimpan informasi len
 
 <p><b>Pasal 2</b></p>
 
-<p><blockquote><p><i>Telekomunikasi diselenggarakan berdasarkan asas manfaat, adil dan merata, kepastian hukum, keamanan, kemitraan, etika, dan kepercayaan pada diri sendiri.</i></p></blockquote></p>
+<p>{% blockquote %}
+<i>Telekomunikasi diselenggarakan berdasarkan asas manfaat, adil dan merata, kepastian hukum, keamanan, kemitraan, etika, dan kepercayaan pada diri sendiri.</i>
+{% endblockquote %}</p>
 
 <p><b>Pasal 3</b></p>
 
-<p><blockquote><p><i><br/>Telekomunikasi diselenggarakan dengan tujuan untuk mendukung persatuan dan kesatuan bangsa, meningkatkan kesejahteraan dan kemakmuran rakyat secara adil dan merata, mendukung kehidupan ekonomi dan kegiatan pemerintahan, serta meningkatkan hubungan antarbangsa.</i></p></blockquote></p>
+<p>{% blockquote %}
+<i>
+Telekomunikasi diselenggarakan dengan tujuan untuk mendukung persatuan dan kesatuan bangsa, meningkatkan kesejahteraan dan kemakmuran rakyat secara adil dan merata, mendukung kehidupan ekonomi dan kegiatan pemerintahan, serta meningkatkan hubungan antarbangsa.</i>
+{% endblockquote %}</p>
 
 <h3>Penyelenggaraan</h3>
 
@@ -687,15 +692,21 @@ penjara paling lama 1 (satu) tahun dan atau denda paling banyak Rp100.000.000,00
 
 <p>Cybercrime merupakan bentuk-bentuk kejahatan yang timbul karena pemanfaatan teknologi internet. Beberapa pendapat mengindentikkan cybercrime dengan computer crime. <strong><em>The U.S. Department of Justice</em></strong> memberikan pengertien computer crime sebagai:</p>
 
-<p><blockquote><p><i>&ldquo;…any illegal act requiring knowledge of computer technology for its perpetration, investigation, or prosecution&rdquo;.</i></p></blockquote></p>
+<p>{% blockquote %}
+<i>&ldquo;…any illegal act requiring knowledge of computer technology for its perpetration, investigation, or prosecution&rdquo;.</i>
+{% endblockquote %}</p>
 
 <p>Pengertian tersebut identik dengan yang diberikan <strong><em>Organization of European Community Development</em></strong>, yang mendefinisikan computer crime sebagai:</p>
 
-<p><blockquote><p><i>“any illegal, unehtical or unauthorized behavior relating to the automatic processing and/or the transmission of data”.</i></p></blockquote></p>
+<p>{% blockquote %}
+<i>“any illegal, unehtical or unauthorized behavior relating to the automatic processing and/or the transmission of data”.</i>
+{% endblockquote %}</p>
 
 <p>Adapun Andi Hamzah (1989) dalam tulisannya <strong><em>Aspek-aspek Pidana di Bidang komputer</em></strong>, mengartikan kejahatan komputer sebagai:</p>
 
-<p><blockquote><p><i>”Kejahatan di bidang komputer secara umum dapat diartikan sebagai penggunaan komputer secara illegal”.</i></p></blockquote></p>
+<p>{% blockquote %}
+<i>”Kejahatan di bidang komputer secara umum dapat diartikan sebagai penggunaan komputer secara illegal”.</i>
+{% endblockquote %}</p>
 
 <p>Dari beberapa pengertian di atas, secara ringkas dapat dikatakan bahwa cybercrime dapat didefinisikan sebagai perbuatan melawan hukum yang dilakukan dengan menggunakan internet yang berbasis pada kecanggihan teknologi komputer dan telekomunikasi.</p>
 
